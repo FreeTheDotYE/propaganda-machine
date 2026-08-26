@@ -144,7 +144,11 @@ def main() -> int:
     if limit < 0 or limit > 100:
         raise ValueError("EXTRA_PAGE_LIMIT must be between 0 and 100")
 
-    urls = discover(homepage, limit)
+    try:
+        urls = discover(homepage, limit)
+    except (OSError, ValueError, RuntimeError) as exc:
+        print(f"discovery failed for {homepage}: {exc}", file=sys.stderr)
+        return 1
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text("".join(f"{url}\n" for url in urls), encoding="utf-8")
     print(f"discovered {len(urls) - 1} internal pages from {homepage}")

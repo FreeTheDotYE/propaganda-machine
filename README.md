@@ -72,6 +72,7 @@ putting large binaries in Git history:
 
 - homepage plus at most 20 discovered pages per target;
 - 10 MiB Wget download quota per target;
+- 1 MiB maximum for any individual downloaded resource;
 - 12 MiB hard limit per WARC file;
 - 10-second network attempts with no retry;
 - two-minute total timeout per target;

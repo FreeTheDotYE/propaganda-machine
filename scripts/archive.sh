@@ -7,6 +7,7 @@ OUT_DIR="${OUT_DIR:-${ROOT_DIR}/out}"
 WORK_DIR="${WORK_DIR:-${ROOT_DIR}/work}"
 PAGE_LIMIT="${PAGE_LIMIT:-20}"
 SITE_SIZE_LIMIT_MIB="${SITE_SIZE_LIMIT_MIB:-10}"
+RESOURCE_SIZE_LIMIT_MIB="${RESOURCE_SIZE_LIMIT_MIB:-1}"
 SITE_TIMEOUT_MINUTES="${SITE_TIMEOUT_MINUTES:-2}"
 SITE_HARD_LIMIT_MIB="${SITE_HARD_LIMIT_MIB:-12}"
 RUN_STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
@@ -71,6 +72,7 @@ while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
       --timeout=10 \
       --tries=1 \
       --quota="${SITE_SIZE_LIMIT_MIB}m" \
+      --max-filesize="${RESOURCE_SIZE_LIMIT_MIB}m" \
       --user-agent="${USER_AGENT}" \
       --no-verbose \
       --output-file="${log_file}"; then

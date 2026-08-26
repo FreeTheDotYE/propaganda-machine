@@ -15,6 +15,7 @@ concurrency:
 env:
   PAGE_LIMIT: "20"
   SITE_SIZE_LIMIT_MIB: "10"
+  RESOURCE_SIZE_LIMIT_MIB: "1"
   SITE_TIMEOUT_MINUTES: "2"
   SITE_HARD_LIMIT_MIB: "12"
   RETAIN_RELEASES: "4"
@@ -70,7 +71,7 @@ jobs:
         run: |
           tag="archive-$(date -u +%Y-%m-%d)-${GITHUB_RUN_NUMBER}"
           title=".ye archive $(date -u +%Y-%m-%d)"
-          notes="Automated public-web capture of every reachable observed .gov.ye host plus pinned .ye media. Each target is capped at its homepage plus 20 discovered pages, a 10 MiB download quota, a 12 MiB WARC hard limit, and 2 minutes. See the discovery report, manifest, and status report for completeness and failures."
+          notes="Automated public-web capture of every reachable observed .gov.ye host plus pinned .ye media. Each target is capped at its homepage plus 20 discovered pages, a 10 MiB download quota, a 1 MiB per-resource limit, a 12 MiB WARC hard limit, and 2 minutes. See the discovery report, manifest, and status report for completeness and failures."
           gh release create "$tag" out/* --title "$title" --notes "$notes"
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
 
