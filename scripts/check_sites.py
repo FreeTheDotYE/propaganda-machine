@@ -40,7 +40,7 @@ def check(url: str) -> dict[str, str | int]:
     )
     context = ssl._create_unverified_context()
     try:
-        with urlopen(request, timeout=30, context=context) as response:
+        with urlopen(request, timeout=10, context=context) as response:
             response.read(1024)
             return {
                 "checked_at": checked_at,

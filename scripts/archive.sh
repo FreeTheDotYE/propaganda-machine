@@ -6,9 +6,9 @@ SITES_FILE="${SITES_FILE:-${ROOT_DIR}/sites.txt}"
 OUT_DIR="${OUT_DIR:-${ROOT_DIR}/out}"
 WORK_DIR="${WORK_DIR:-${ROOT_DIR}/work}"
 PAGE_LIMIT="${PAGE_LIMIT:-20}"
-SITE_SIZE_LIMIT_MIB="${SITE_SIZE_LIMIT_MIB:-25}"
-SITE_TIMEOUT_MINUTES="${SITE_TIMEOUT_MINUTES:-12}"
-SITE_HARD_LIMIT_MIB="${SITE_HARD_LIMIT_MIB:-30}"
+SITE_SIZE_LIMIT_MIB="${SITE_SIZE_LIMIT_MIB:-10}"
+SITE_TIMEOUT_MINUTES="${SITE_TIMEOUT_MINUTES:-2}"
+SITE_HARD_LIMIT_MIB="${SITE_HARD_LIMIT_MIB:-12}"
 RUN_STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
 USER_AGENT="FreeTheDotYE-ArchiveBot/1.0 (+https://github.com/FreeTheDotYE/propaganda-machine)"
 
@@ -68,8 +68,8 @@ while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
       --domains="${host}" \
       --execute robots=off \
       --no-check-certificate \
-      --timeout=30 \
-      --tries=2 \
+      --timeout=10 \
+      --tries=1 \
       --quota="${SITE_SIZE_LIMIT_MIB}m" \
       --user-agent="${USER_AGENT}" \
       --no-verbose \

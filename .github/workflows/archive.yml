@@ -14,15 +14,15 @@ concurrency:
 
 env:
   PAGE_LIMIT: "20"
-  SITE_SIZE_LIMIT_MIB: "25"
-  SITE_TIMEOUT_MINUTES: "12"
-  SITE_HARD_LIMIT_MIB: "30"
+  SITE_SIZE_LIMIT_MIB: "10"
+  SITE_TIMEOUT_MINUTES: "2"
+  SITE_HARD_LIMIT_MIB: "12"
   RETAIN_RELEASES: "4"
 
 jobs:
   archive:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 330
 
     steps:
       - name: Check out the inventory and scripts
@@ -35,11 +35,16 @@ jobs:
           wget --version | head -n 1
           gh --version | head -n 1
 
+      - name: Refresh and probe the complete observed .gov.ye inventory
+        run: >-
+          python3 scripts/discover_govye.py sites.txt govye-domains.txt
+          out/targets.txt out/govye-domains.txt out/govye-discovery.csv
+
       - name: Check every configured site
-        run: python3 scripts/check_sites.py sites.txt out/site-status.csv
+        run: python3 scripts/check_sites.py out/targets.txt out/site-status.csv
 
       - name: Create bounded WARC archives
-        run: bash scripts/archive.sh
+        run: SITES_FILE=out/targets.txt bash scripts/archive.sh
 
       - name: Add results to the workflow summary
         if: always()
@@ -65,7 +70,7 @@ jobs:
         run: |
           tag="archive-$(date -u +%Y-%m-%d)-${GITHUB_RUN_NUMBER}"
           title=".ye archive $(date -u +%Y-%m-%d)"
-          notes="Automated public-web capture. Each target is capped at its homepage plus 20 discovered pages, a 25 MiB download quota, a 30 MiB WARC hard limit, and 12 minutes. See manifest.csv and site-status.csv for completeness and failures."
+          notes="Automated public-web capture of every reachable observed .gov.ye host plus pinned .ye media. Each target is capped at its homepage plus 20 discovered pages, a 10 MiB download quota, a 12 MiB WARC hard limit, and 2 minutes. See the discovery report, manifest, and status report for completeness and failures."
           gh release create "$tag" out/* --title "$title" --notes "$notes"
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
 
@@ -88,6 +93,8 @@ jobs:
         run: |
           site_count="$(tail -n +2 out/manifest.csv | wc -l | tr -d ' ')"
           archive_count="$(find out -maxdepth 1 -name '*.warc.gz' -type f | wc -l | tr -d ' ')"
+          observed_count="$(grep -Ev '^[[:space:]]*(#|$)' out/govye-domains.txt | wc -l | tr -d ' ')"
+          reachable_count="$(grep -Ec '^https?://([^/]+\.)?gov\.ye/?$' out/targets.txt || true)"
           captured_at="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
           {
             echo '# Latest archive run'
@@ -96,11 +103,14 @@ jobs:
             echo "- Completed: ${captured_at}"
             echo "- Configured targets processed: ${site_count}"
             echo "- WARC files produced: ${archive_count}"
+            echo "- Observed .gov.ye domains: ${observed_count}"
+            echo "- Reachable .gov.ye web hosts: ${reachable_count}"
             echo
             echo 'Detailed status, manifests, checksums, CDX indexes, and WARC files are attached to the release.'
           } > LATEST.md
+          cp out/govye-domains.txt govye-domains.txt
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add LATEST.md
+          git add LATEST.md govye-domains.txt
           git commit -m "chore: record archive ${RELEASE_TAG}"
           git push origin HEAD:main

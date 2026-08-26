@@ -97,7 +97,7 @@ def clean_link(raw: str, base_url: str, site_host: str) -> str | None:
 def discover(homepage: str, extra_page_limit: int) -> list[str]:
     request = Request(homepage, headers={"User-Agent": USER_AGENT, "Accept": "text/html,*/*"})
     context = ssl._create_unverified_context()
-    with urlopen(request, timeout=30, context=context) as response:
+    with urlopen(request, timeout=10, context=context) as response:
         final_home = response.geturl()
         content_type = response.headers.get_content_type()
         charset = response.headers.get_content_charset() or "utf-8"
