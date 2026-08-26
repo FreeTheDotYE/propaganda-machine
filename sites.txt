@@ -1,0 +1,19 @@
+# News and media
+https://saba.ye
+https://mmy.ye
+https://althawrah.ye
+
+# Government and government-affiliated institutions
+https://hocc.gov.ye
+https://www.agoye.gov.ye
+https://caqa.gov.ye
+https://hasti.gov.ye
+https://indparkye.gov.ye
+https://meoh.gov.ye
+https://moit.gov.ye
+https://moj.gov.ye
+https://msw.gov.ye
+https://tax.gov.ye
+https://algumhorihosp-san.gov.ye
+
+# Keep one canonical homepage URL per site. Blank lines and comments are ignored.
