@@ -7,7 +7,6 @@ OUT_DIR="${OUT_DIR:-${ROOT_DIR}/out}"
 WORK_DIR="${WORK_DIR:-${ROOT_DIR}/work}"
 PAGE_LIMIT="${PAGE_LIMIT:-20}"
 SITE_SIZE_LIMIT_MIB="${SITE_SIZE_LIMIT_MIB:-10}"
-RESOURCE_SIZE_LIMIT_MIB="${RESOURCE_SIZE_LIMIT_MIB:-1}"
 SITE_TIMEOUT_MINUTES="${SITE_TIMEOUT_MINUTES:-2}"
 SITE_HARD_LIMIT_MIB="${SITE_HARD_LIMIT_MIB:-12}"
 RUN_STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
@@ -72,7 +71,6 @@ while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
       --timeout=10 \
       --tries=1 \
       --quota="${SITE_SIZE_LIMIT_MIB}m" \
-      --max-filesize="${RESOURCE_SIZE_LIMIT_MIB}m" \
       --user-agent="${USER_AGENT}" \
       --no-verbose \
       --output-file="${log_file}"; then
@@ -84,12 +82,44 @@ while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
   warc_file="${warc_base}.warc.gz"
   hard_limit_bytes=$((SITE_HARD_LIMIT_MIB * 1024 * 1024))
   if [[ -s "${warc_file}" ]] && (( $(stat -c '%s' "${warc_file}") > hard_limit_bytes )); then
-    echo "discarding oversized WARC for ${site}; hard limit is ${SITE_HARD_LIMIT_MIB} MiB" >&2
+    echo "oversized WARC for ${site}; retrying the homepage without assets" >&2
     rm -f -- "${warc_file}" "${warc_base}.cdx"
-    archive_name=""
-    bytes=0
-    result="failed-hard-size-limit"
-    failure_count=$((failure_count + 1))
+
+    if timeout --kill-after=30s "${SITE_TIMEOUT_MINUTES}m" \
+      wget \
+        --directory-prefix="${site_work}/download" \
+        --warc-file="${warc_base}" \
+        --warc-cdx \
+        --warc-compression \
+        --delete-after \
+        --domains="${host}" \
+        --execute robots=off \
+        --no-check-certificate \
+        --timeout=10 \
+        --tries=1 \
+        --quota="${SITE_SIZE_LIMIT_MIB}m" \
+        --user-agent="${USER_AGENT}" \
+        --no-verbose \
+        --output-file="${log_file}.homepage" \
+        "${effective_home}"; then
+      wget_exit=0
+    else
+      wget_exit=$?
+    fi
+
+    if [[ -s "${warc_file}" ]] && (( $(stat -c '%s' "${warc_file}") <= hard_limit_bytes )); then
+      archive_name="$(basename "${warc_file}")"
+      bytes="$(stat -c '%s' "${warc_file}")"
+      result="archived-homepage-only-hard-limit-fallback"
+      archive_count=$((archive_count + 1))
+    else
+      echo "homepage-only WARC still failed the ${SITE_HARD_LIMIT_MIB} MiB hard limit for ${site}" >&2
+      rm -f -- "${warc_file}" "${warc_base}.cdx"
+      archive_name=""
+      bytes=0
+      result="failed-hard-size-limit"
+      failure_count=$((failure_count + 1))
+    fi
   elif [[ -s "${warc_file}" ]]; then
     archive_name="$(basename "${warc_file}")"
     bytes="$(stat -c '%s' "${warc_file}")"

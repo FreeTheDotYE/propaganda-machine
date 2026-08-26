@@ -1,7 +1,7 @@
 # Propaganda Machine
 
 Propaganda Machine preserves time-stamped public-web evidence from Yemen's
-`.ye` government and news infrastructure. The WARC records support research
+`.ye` government, media, and related infrastructure. The WARC records support research
 into how this national namespace is used for wartime messaging, propaganda,
 and claims to political legitimacy.
 
@@ -12,7 +12,8 @@ namespace run under Houthi militia control. This project therefore classifies
 the `.gov.ye` publication infrastructure as Houthi-operated, including where an
 individual page uses a ministry, authority, governorate, or other institutional
 label.** The archive also includes identified Houthi media elsewhere under
-`.ye`, including Saba, the Military Media, and Al-Thawrah.
+`.ye`, including Saba in Arabic and English, the Military Media, Al-Thawrah,
+Al-Siyasiah, Sanaa Radio, Yemen TV, and Al-Sahat TV.
 
 The attribution is based on the control chain, not merely on page content:
 
@@ -42,7 +43,7 @@ Every Sunday, and whenever manually dispatched, the workflow:
 3. probes the remaining candidates over HTTPS and HTTP and selects only hosts
    serving public HTML inside `.gov.ye`, excluding HTTP errors, non-HTML
    services, outside redirects, and recognized mail/control-panel login pages;
-4. adds the pinned `.ye` news and media sites in [`sites.txt`](sites.txt);
+4. adds the pinned `.ye` media and requested related sites in [`sites.txt`](sites.txt);
 5. checks every selected URL and records its current HTTP status;
 6. finds up to 20 same-host links from each homepage;
 7. archives the homepage, those links, and same-host page assets as compressed
@@ -72,7 +73,6 @@ putting large binaries in Git history:
 
 - homepage plus at most 20 discovered pages per target;
 - 10 MiB Wget download quota per target;
-- 1 MiB maximum for any individual downloaded resource;
 - 12 MiB hard limit per WARC file;
 - 10-second network attempts with no retry;
 - two-minute total timeout per target;
@@ -94,11 +94,11 @@ retention count before increasing schedule frequency.
 
 - [`govye-domains.txt`](govye-domains.txt) is the accumulated `.gov.ye`
   candidate inventory. Every entry is reprobed on every run.
-- [`sites.txt`](sites.txt) pins known government examples and `.ye` news/media
-  sites. Government entries are merged into the candidate inventory; non-government
-  entries remain archive targets.
+- [`sites.txt`](sites.txt) pins known government examples, `.ye` media,
+  and explicitly requested related sites. Government entries are merged into
+  the candidate inventory; non-government entries remain archive targets.
 - `out/targets.txt` is generated during a run and contains only reachable
-  `.gov.ye` sites plus pinned non-government media targets.
+  `.gov.ye` sites plus pinned non-government targets.
 
 ## Run locally
 

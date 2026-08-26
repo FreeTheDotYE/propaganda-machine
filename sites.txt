@@ -1,7 +1,15 @@
 # News and media
 https://saba.ye
+https://saba.ye/en
 https://mmy.ye
 https://althawrah.ye
+https://alsyasiah.ye
+https://sanaaradio.net.ye
+https://yemen-tv.net.ye
+https://alsahattv.com.ye
+
+# Other requested .ye infrastructure
+https://sohobcom.ye
 
 # Government and government-affiliated institutions
 https://hocc.gov.ye
