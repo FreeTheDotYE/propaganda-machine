@@ -37,14 +37,17 @@ Every Sunday, and whenever manually dispatched, the workflow:
 1. refreshes `.gov.ye` candidates from the twelve latest Common Crawl indexes,
    HackerTarget, RapidDNS, certificate-transparency results, and the retained
    source-controlled inventory;
-2. probes every candidate over HTTPS and HTTP and selects every host that
-   returns an HTTP response, including error or access-denied responses;
-3. adds the pinned `.ye` news and media sites in [`sites.txt`](sites.txt);
-4. checks every selected URL and records its current HTTP status;
-5. finds up to 20 same-host links from each homepage;
-6. archives the homepage, those links, and same-host page assets as compressed
+2. rejects mail, webmail, cPanel, calendar/contact, nameserver, gateway,
+   development, test, and other obvious infrastructure-only hostnames;
+3. probes the remaining candidates over HTTPS and HTTP and selects only hosts
+   serving public HTML inside `.gov.ye`, excluding HTTP errors, non-HTML
+   services, outside redirects, and recognized mail/control-panel login pages;
+4. adds the pinned `.ye` news and media sites in [`sites.txt`](sites.txt);
+5. checks every selected URL and records its current HTTP status;
+6. finds up to 20 same-host links from each homepage;
+7. archives the homepage, those links, and same-host page assets as compressed
    WARC files; and
-7. publishes WARC files, CDX indexes, discovery/status reports, a manifest, and
+8. publishes WARC files, CDX indexes, discovery/status reports, a manifest, and
    SHA-256 checksums as assets on a dated GitHub Release.
 
 Newly observed `.gov.ye` domains are written back to
@@ -54,7 +57,7 @@ unavailable later.
 
 No passive source can prove that it has the complete private DNS zone. In this
 repository, “all accessible `.gov.ye` sites” means every hostname accumulated
-from the documented independent sources that returned HTTP during that run.
+from the documented sources that passed the public-HTML website filter that run.
 The discovery CSV records the source and result for every candidate so coverage
 is auditable rather than implied.
 

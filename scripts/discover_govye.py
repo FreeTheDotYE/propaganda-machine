@@ -27,6 +27,33 @@ HOST_RE = re.compile(
 SOURCE_TIMEOUT = 60
 PROBE_TIMEOUT = 8
 COMMON_CRAWL_INDEXES = 12
+EXCLUDED_SERVICE_LABELS = {
+    "autoconfig",
+    "autodiscover",
+    "cloudflare-resolve-to",
+    "cpanel",
+    "cpcalendars",
+    "cpcontacts",
+    "dev",
+    "erp",
+    "fleetcart",
+    "ofinixx",
+    "ftp",
+    "imap",
+    "mail",
+    "mx",
+    "pop",
+    "pop3",
+    "smtp",
+    "staging",
+    "test",
+    "webdisk",
+    "webmail",
+    "whm",
+}
+SERVICE_PAGE_RE = re.compile(
+    r"(?is)<title[^>]*>[^<]*(?:cpanel|webmail|roundcube|plesk|mail login|mail server)"
+)
 
 
 def request_bytes(url: str, timeout: int = SOURCE_TIMEOUT) -> bytes:
@@ -57,6 +84,13 @@ def normalize_host(value: str) -> str | None:
         or label.endswith("-")
         or not re.fullmatch(r"[a-z0-9-]+", label)
         for label in labels
+    ):
+        return None
+    first_label = labels[0]
+    if (
+        first_label in EXCLUDED_SERVICE_LABELS
+        or re.fullmatch(r"ns\d*", first_label)
+        or first_label.startswith("ty-ax-fe")
     ):
         return None
     return host
@@ -162,6 +196,9 @@ def collect_crtsh() -> tuple[dict[str, set[str]], list[str]]:
 def probe_host(host: str) -> dict[str, str | int]:
     checked_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     failures: list[str] = []
+    last_status = 0
+    last_final_url = ""
+    last_content_type = ""
     context = ssl._create_unverified_context()
     for scheme in ("https", "http"):
         url = f"{scheme}://{host}/"
@@ -170,40 +207,52 @@ def probe_host(host: str) -> dict[str, str | int]:
             headers={
                 "User-Agent": USER_AGENT,
                 "Accept": "text/html,*/*",
-                "Range": "bytes=0-1023",
+                "Range": "bytes=0-65535",
             },
         )
         try:
             with urlopen(request, timeout=PROBE_TIMEOUT, context=context) as response:
-                response.read(1024)
-                return {
-                    "checked_at": checked_at,
-                    "host": host,
-                    "selected_url": url,
-                    "final_url": response.geturl(),
-                    "http_status": response.status,
-                    "content_type": response.headers.get_content_type(),
-                    "error": "",
-                }
-        except HTTPError as exc:
+                body = response.read(65_536)
+                final_url = response.geturl()
+                status = int(response.status)
+                content_type = response.headers.get_content_type()
+                charset = response.headers.get_content_charset() or "utf-8"
+            last_status = status
+            last_final_url = final_url
+            last_content_type = content_type
+            final_host = urlsplit(final_url).hostname or ""
+            if normalize_host(final_host) is None:
+                failures.append(f"{scheme}: redirected outside .gov.ye to {final_host}")
+                continue
+            if content_type not in {"text/html", "application/xhtml+xml"}:
+                failures.append(f"{scheme}: non-HTML content type {content_type}")
+                continue
+            if SERVICE_PAGE_RE.search(body.decode(charset, errors="replace")):
+                failures.append(f"{scheme}: mail or control-panel login page")
+                continue
             return {
                 "checked_at": checked_at,
                 "host": host,
                 "selected_url": url,
-                "final_url": exc.geturl(),
-                "http_status": exc.code,
-                "content_type": exc.headers.get_content_type() if exc.headers else "",
-                "error": str(exc.reason),
+                "final_url": final_url,
+                "http_status": status,
+                "content_type": content_type,
+                "error": "",
             }
+        except HTTPError as exc:
+            last_status = exc.code
+            last_final_url = exc.geturl()
+            last_content_type = exc.headers.get_content_type() if exc.headers else ""
+            failures.append(f"{scheme}: HTTP {exc.code} {exc.reason}")
         except (URLError, TimeoutError, OSError) as exc:
             failures.append(f"{scheme}: {getattr(exc, 'reason', exc)}")
     return {
         "checked_at": checked_at,
         "host": host,
         "selected_url": "",
-        "final_url": "",
-        "http_status": 0,
-        "content_type": "",
+        "final_url": last_final_url,
+        "http_status": last_status,
+        "content_type": last_content_type,
         "error": " | ".join(failures),
     }
 
@@ -257,7 +306,7 @@ def main() -> int:
             fixed_non_gov.append(url)
 
     reachable = [
-        result for result in probe_results if int(result["http_status"]) != 0
+        result for result in probe_results if bool(result["selected_url"])
     ]
     target_urls = fixed_non_gov + [str(result["selected_url"]) for result in reachable]
     target_urls = list(dict.fromkeys(target_urls))
