@@ -7,7 +7,7 @@ and claims to political legitimacy.
 
 ## Houthi control of the namespace
 
-**All `.gov.ye` sites captured by this project operate inside a governmental
+**All `.gov.ye` and `*.ye` sites captured by this project operate inside a governmental
 namespace run under Houthi militia control. This project therefore classifies
 the `.gov.ye` publication infrastructure as Houthi-operated, including where an
 individual page uses a ministry, authority, governorate, or other institutional
@@ -33,7 +33,7 @@ cite the specific archived record and distinguish observation from inference.
 
 ## What the action does
 
-Every Sunday, and whenever manually dispatched, the workflow:
+Every Thursday and Saturday, and whenever manually dispatched, the workflow:
 
 1. refreshes `.gov.ye` candidates from the twelve latest Common Crawl indexes,
    HackerTarget, RapidDNS, certificate-transparency results, and the retained
