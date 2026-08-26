@@ -2,7 +2,7 @@ name: Check and archive .ye sites
 
 on:
   schedule:
-    - cron: "17 3 * * 0"
+    - cron: "17 0 * * 4,6"
   workflow_dispatch:
 
 permissions:
