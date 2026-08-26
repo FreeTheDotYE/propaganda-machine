@@ -17,7 +17,6 @@ env:
   SITE_SIZE_LIMIT_MIB: "10"
   SITE_TIMEOUT_MINUTES: "2"
   SITE_HARD_LIMIT_MIB: "12"
-  RETAIN_RELEASES: "4"
 
 jobs:
   archive:
@@ -32,8 +31,14 @@ jobs:
         run: |
           python3 --version
           python3 -m py_compile scripts/*.py
+          python3 -m unittest discover -s tests -v
           wget --version | head -n 1
           gh --version | head -n 1
+
+      - name: Prepare the permanent cross-run deduplication index
+        run: |
+          mkdir -p work
+          python3 scripts/build_dedupe_cdx.py history work/dedupe.cdx
 
       - name: Refresh and probe the complete observed .gov.ye inventory
         run: >-
@@ -44,7 +49,10 @@ jobs:
         run: python3 scripts/check_sites.py out/targets.txt out/site-status.csv
 
       - name: Create bounded WARC archives
-        run: SITES_FILE=out/targets.txt bash scripts/archive.sh
+        run: >-
+          SITES_FILE=out/targets.txt
+          DEDUP_CDX=work/dedupe.cdx
+          bash scripts/archive.sh
 
       - name: Add results to the workflow summary
         if: always()
@@ -74,20 +82,7 @@ jobs:
           gh release create "$tag" out/* --title "$title" --notes "$notes"
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
 
-      - name: Retain only the newest archive releases
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          mapfile -t stale_tags < <(
-            gh release list --limit 100 --json tagName,publishedAt \
-              --jq 'map(select(.tagName | startswith("archive-"))) | sort_by(.publishedAt) | reverse | .[].tagName' \
-              | awk "NR > ${RETAIN_RELEASES}"
-          )
-          for stale_tag in "${stale_tags[@]}"; do
-            gh release delete "$stale_tag" --cleanup-tag --yes
-          done
-
-      - name: Record the latest successful run on the default branch
+      - name: Permanently record the successful run on the default branch
         env:
           RELEASE_TAG: ${{ steps.release.outputs.tag }}
         run: |
@@ -95,7 +90,22 @@ jobs:
           archive_count="$(find out -maxdepth 1 -name '*.warc.gz' -type f | wc -l | tr -d ' ')"
           observed_count="$(grep -Ev '^[[:space:]]*(#|$)' out/govye-domains.txt | wc -l | tr -d ' ')"
           reachable_count="$(grep -Ec '^https?://([^/]+\.)?gov\.ye/?$' out/targets.txt || true)"
+          response_count="$(awk -F, 'NR > 1 { total += $9 } END { print total + 0 }' out/manifest.csv)"
+          revisit_count="$(awk -F, 'NR > 1 { total += $10 } END { print total + 0 }' out/manifest.csv)"
           captured_at="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          history_dir="history/${RELEASE_TAG}"
+          mkdir -p "${history_dir}/cdx"
+          cp out/*.cdx "${history_dir}/cdx/"
+          cp out/manifest.csv out/site-status.csv out/targets.txt \
+            out/govye-discovery.csv out/govye-domains.txt out/SHA256SUMS \
+            "${history_dir}/"
+          if [[ ! -f history/index.csv ]]; then
+            echo 'release,completed_at,targets,warcs,observed_govye,reachable_govye,response_records,revisit_records' > history/index.csv
+          fi
+          printf '%s,%s,%s,%s,%s,%s,%s,%s\n' \
+            "${RELEASE_TAG}" "${captured_at}" "${site_count}" "${archive_count}" \
+            "${observed_count}" "${reachable_count}" "${response_count}" "${revisit_count}" \
+            >> history/index.csv
           {
             echo '# Latest archive run'
             echo
@@ -105,12 +115,15 @@ jobs:
             echo "- WARC files produced: ${archive_count}"
             echo "- Observed .gov.ye domains: ${observed_count}"
             echo "- Reachable .gov.ye web hosts: ${reachable_count}"
+            echo "- New response records stored: ${response_count}"
+            echo "- Unchanged payload revisit records: ${revisit_count}"
             echo
-            echo 'Detailed status, manifests, checksums, CDX indexes, and WARC files are attached to the release.'
+            echo 'Detailed metadata and every CDX index are retained permanently under history/.'
+            echo 'WARC files are attached to the release, and archive releases are never removed by automation.'
           } > LATEST.md
           cp out/govye-domains.txt govye-domains.txt
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add LATEST.md govye-domains.txt
+          git add LATEST.md govye-domains.txt history
           git commit -m "chore: record archive ${RELEASE_TAG}"
           git push origin HEAD:main

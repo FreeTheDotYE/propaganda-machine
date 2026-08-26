@@ -47,9 +47,12 @@ Every Thursday and Saturday, and whenever manually dispatched, the workflow:
 5. checks every selected URL and records its current HTTP status;
 6. finds up to 20 same-host links from each homepage;
 7. archives the homepage, those links, and same-host page assets as compressed
-   WARC files; and
+   WARC files, using the permanent historical CDX corpus to write revisit
+   records instead of duplicating unchanged response payloads;
 8. publishes WARC files, CDX indexes, discovery/status reports, a manifest, and
-   SHA-256 checksums as assets on a dated GitHub Release.
+   SHA-256 checksums as assets on a dated GitHub Release; and
+9. commits every manifest, CDX index, checksum, target list, discovery report,
+   and status report permanently under [`history/`](history/).
 
 Newly observed `.gov.ye` domains are written back to
 [`govye-domains.txt`](govye-domains.txt) after a successful run. This preserves
@@ -78,17 +81,24 @@ putting large binaries in Git history:
 - two-minute total timeout per target;
 - sites processed sequentially in one standard GitHub-hosted job;
 - 330-minute job ceiling;
-- four rolling archive releases retained; and
+- every archive release retained permanently; and
 - no WARC binaries stored as Actions artifacts.
 
 The hard maximum for one release is `12 MiB × reachable target count`; the
-latest target count is recorded in [`LATEST.md`](LATEST.md). Release assets stay
-attached to this repository while the Git repository remains small and
-cloneable.
+latest target count is recorded in [`LATEST.md`](LATEST.md). Changed and newly
+seen response payloads are stored normally. When Wget finds an exact URL and
+payload-digest match in the historical CDX corpus, it writes a standards-based
+WARC revisit record instead of another copy of the response bytes. The original
+WARC remains available because archive releases are not rotated away.
+
+Run metadata and CDX files remain in Git for durable discovery. The larger WARC
+files stay attached to their dated releases so the repository remains
+cloneable. [`history/index.csv`](history/index.csv) is the compact permanent run
+catalog.
 
 Limits can be adjusted in [`.github/workflows/archive.yml`](.github/workflows/archive.yml).
 If the reachable inventory grows substantially, reduce the per-site quota or
-retention count before increasing schedule frequency.
+page limit before increasing schedule frequency.
 
 ## Inventory files
 

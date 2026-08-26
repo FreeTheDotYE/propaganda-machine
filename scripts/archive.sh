@@ -9,12 +9,28 @@ PAGE_LIMIT="${PAGE_LIMIT:-20}"
 SITE_SIZE_LIMIT_MIB="${SITE_SIZE_LIMIT_MIB:-10}"
 SITE_TIMEOUT_MINUTES="${SITE_TIMEOUT_MINUTES:-2}"
 SITE_HARD_LIMIT_MIB="${SITE_HARD_LIMIT_MIB:-12}"
+DEDUP_CDX="${DEDUP_CDX:-}"
 RUN_STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
 USER_AGENT="FreeTheDotYE-ArchiveBot/1.0 (+https://github.com/FreeTheDotYE/propaganda-machine)"
 
 mkdir -p "${OUT_DIR}" "${WORK_DIR}"
 MANIFEST="${OUT_DIR}/manifest.csv"
-printf 'captured_at,site,queued_pages,archive,result,wget_exit_code,bytes,discovery\n' > "${MANIFEST}"
+printf 'captured_at,site,queued_pages,archive,result,wget_exit_code,bytes,discovery,response_records,revisit_records\n' > "${MANIFEST}"
+
+dedup_args=()
+if [[ -n "${DEDUP_CDX}" && -s "${DEDUP_CDX}" ]] && (( $(wc -l < "${DEDUP_CDX}") > 1 )); then
+  dedup_args=(--warc-dedup="${DEDUP_CDX}")
+fi
+
+append_cdx_to_dedup() {
+  local cdx_file="$1"
+  [[ -n "${DEDUP_CDX}" && -s "${cdx_file}" ]] || return 0
+  if [[ ! -s "${DEDUP_CDX}" ]]; then
+    head -n 1 "${cdx_file}" > "${DEDUP_CDX}"
+  fi
+  tail -n +2 "${cdx_file}" >> "${DEDUP_CDX}"
+  dedup_args=(--warc-dedup="${DEDUP_CDX}")
+}
 
 if [[ ! -f "${SITES_FILE}" ]]; then
   echo "missing sites file: ${SITES_FILE}" >&2
@@ -63,6 +79,7 @@ while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
       --warc-file="${warc_base}" \
       --warc-cdx \
       --warc-compression \
+      "${dedup_args[@]}" \
       --page-requisites \
       --delete-after \
       --domains="${host}" \
@@ -91,6 +108,7 @@ while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
         --warc-file="${warc_base}" \
         --warc-cdx \
         --warc-compression \
+        "${dedup_args[@]}" \
         --delete-after \
         --domains="${host}" \
         --execute robots=off \
@@ -136,9 +154,19 @@ while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
     failure_count=$((failure_count + 1))
   fi
 
-  printf '%s,%s,%s,%s,%s,%s,%s,%s\n' \
+  response_records=0
+  revisit_records=0
+  if [[ -s "${warc_file}" ]]; then
+    IFS=$'\t' read -r response_records revisit_records < <(
+      python3 "${ROOT_DIR}/scripts/warc_stats.py" "${warc_file}"
+    )
+    append_cdx_to_dedup "${warc_base}.cdx"
+  fi
+
+  printf '%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n' \
     "${RUN_STAMP}" "${site}" "${queued_pages}" "${archive_name}" \
-    "${result}" "${wget_exit}" "${bytes}" "${discovery}" >> "${MANIFEST}"
+    "${result}" "${wget_exit}" "${bytes}" "${discovery}" \
+    "${response_records}" "${revisit_records}" >> "${MANIFEST}"
 done < "${SITES_FILE}"
 
 shopt -s nullglob
@@ -150,7 +178,9 @@ fi
 
 (
   cd "${OUT_DIR}"
-  sha256sum ./*.warc.gz > SHA256SUMS
+  find . -maxdepth 1 -type f ! -name SHA256SUMS -printf '%f\n' \
+    | LC_ALL=C sort \
+    | xargs sha256sum > SHA256SUMS
 )
 
 echo "created ${archive_count} WARC archives; ${failure_count} targets failed completely"
