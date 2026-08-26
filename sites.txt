@@ -9,7 +9,8 @@ https://yemen-tv.net.ye
 https://alsahattv.com.ye
 
 # Other requested .ye infrastructure
-https://sohobcom.ye
+https://www.sohobcom.ye/ar
+https://www.sohobcom.ye/en
 
 # Government and government-affiliated institutions
 https://hocc.gov.ye
