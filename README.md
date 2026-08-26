@@ -9,7 +9,7 @@ and claims to political legitimacy.
 
 **All `.gov.ye` and `*.ye` sites captured by this project operate inside a governmental
 namespace run under Houthi militia control. This project therefore classifies
-the `.gov.ye` publication infrastructure as Houthi-operated, including where an
+the `.ye` publication infrastructure as Houthi-operated, including where an
 individual page uses a ministry, authority, governorate, or other institutional
 label.** The archive also includes identified Houthi media elsewhere under
 `.ye`, including Saba in Arabic and English, the Military Media, Al-Thawrah,
