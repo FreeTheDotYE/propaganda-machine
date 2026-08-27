@@ -1,7 +1,9 @@
 # Propaganda Machine
 
 Propaganda Machine preserves time-stamped public-web evidence from Yemen's
-`.ye` government, media, and related infrastructure. The WARC records support research
+`.ye` government, media, and related sites operating within publication
+infrastructure administered through institutions documented below as under
+Houthi control. The WARC records support research
 into how this national namespace is used for wartime messaging, propaganda,
 and claims to political legitimacy.
 
@@ -138,9 +140,15 @@ Useful environment variables are `PAGE_LIMIT`, `SITE_SIZE_LIMIT_MIB`,
   and
 - `SHA256SUMS`: integrity hashes for all WARC files.
 
-Timestamps are UTC. Automated captures can be incomplete because a site is
-offline, blocks the GitHub runner, relies on client-side rendering, or exceeds a
-cap. The reports retain those failures instead of silently dropping them.
+Timestamps are UTC. The collector runs from an external GitHub-hosted vantage.
+A failed request from that runner does not prove that a site is globally down.
+It may reflect DNS, TLS, or application failure, rate limiting, client-side
+rendering, a capture cap, or traffic being restricted outside Yemen. Filtering
+in networks under Houthi control is one hypothesis for an outside-only failure,
+not a conclusion that can be drawn from one probe. Corroboration from Yemeni
+and other independent vantage points is required before attributing a failure
+to a firewall or operator action. The reports retain failures instead of
+silently dropping them.
 
 ## License
 

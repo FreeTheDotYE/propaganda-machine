@@ -176,11 +176,4 @@ if (( ${#warc_files[@]} == 0 )); then
   exit 1
 fi
 
-(
-  cd "${OUT_DIR}"
-  find . -maxdepth 1 -type f ! -name SHA256SUMS -printf '%f\n' \
-    | LC_ALL=C sort \
-    | xargs sha256sum > SHA256SUMS
-)
-
 echo "created ${archive_count} WARC archives; ${failure_count} targets failed completely"
