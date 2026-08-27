@@ -1,4 +1,5 @@
-release,completed_at,targets,warcs,observed_govye,reachable_govye,response_records,revisit_records
-archive-2026-08-26-3,2026-08-26T14:31:10Z,43,42,125,40,,
-archive-2026-08-26-6,2026-08-26T18:41:43Z,43,43,125,33,2157,2771
-archive-2026-08-27-7,2026-08-27T10:29:06Z,36,36,327,26,1281,2554
+release,completed_at,targets,warcs,observed_govye,reachable_govye,response_records,revisit_records,metadata_version,methodology_version,workflow_commit,methodology_sha256,pinned_inventory_sha256,accumulated_inventory_sha256,selected_targets_sha256,candidate_count,unreachable_count,excluded_count,targets_with_records,empty_captures,hard_limit_fallbacks,complete_failures,clean_wget_outcomes,non_clean_wget_outcomes,warc_bytes
+archive-2026-08-26-3,2026-08-26T14:31:10Z,43,42,125,40,,,legacy-unversioned,legacy-unversioned,,,,,,,,,,,,,,,
+archive-2026-08-26-6,2026-08-26T18:41:43Z,43,43,125,33,2157,2771,legacy-unversioned,legacy-unversioned,,,,,,,,,,,,,,,
+archive-2026-08-27-7,2026-08-27T10:29:06Z,36,36,327,26,1281,2554,legacy-unversioned,legacy-unversioned,,,,,,,,,,,,,,,
+archive-2026-08-27-8,2026-08-27T13:36:45Z,51,51,327,41,2507,3296,2.0.0,2.0.0,21ec027f9be72fb77065f7b100ca63f4e37779f8,af4e921af26c1f6a350de6486ab86fed78f690609abe91d7c87061a5b2618d0a,d3ea5459bd019ad52cde61362a8859c921ff4033113e2a32d888d93434e87b29,3e3dbffc4fcc00199ce4d0e7de6c6601b4e1e660f93dde792e81911f074b2913,7f91e29a09d41df2336f3d86f6f419f8ba0c451eb6106adc4556854e725e8ba7,327,275,11,51,0,2,0,16,35,98648301
