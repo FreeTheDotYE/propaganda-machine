@@ -9,8 +9,7 @@ and claims to political legitimacy.
 
 ## Houthi control of the namespace
 
-**All `.gov.ye` and `*.ye` sites captured by this project operate inside a governmental
-namespace run under Houthi militia control. This project therefore classifies
+**All .gov.ye sites captured by this project operate within the government namespace administered under Houthi authority. Other .ye targets operate within the same Houthi-controlled national registry and telecommunications environment. This project therefore classifies
 the `.ye` publication infrastructure as Houthi-operated, including where an
 individual page uses a ministry, authority, governorate, or other institutional
 label.** The archive also includes identified Houthi media elsewhere under
