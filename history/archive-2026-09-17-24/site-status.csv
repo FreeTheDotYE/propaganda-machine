@@ -1,0 +1,26 @@
+checked_at,url,final_url,http_status,content_type,error
+2026-09-17T18:48:31+00:00,https://saba.ye,,0,,timed out
+2026-09-17T18:48:31+00:00,https://saba.ye/en,,0,,timed out
+2026-09-17T18:48:31+00:00,https://mmy.ye,,0,,[Errno 104] Connection reset by peer
+2026-09-17T18:48:31+00:00,https://althawrah.ye,https://althawrah.ye,200,text/html,
+2026-09-17T18:48:31+00:00,https://alsyasiah.ye,https://alsyasiah.ye,206,text/html,
+2026-09-17T18:48:31+00:00,https://sanaaradio.net.ye,https://sanaaradio.net.ye,200,text/html,
+2026-09-17T18:48:31+00:00,https://yemen-tv.net.ye,https://yemen-tv.net.ye,206,text/html,
+2026-09-17T18:48:31+00:00,https://alsahattv.com.ye,https://alsahattv.com.ye,200,text/html,
+2026-09-17T18:48:32+00:00,https://www.sohobcom.ye/ar,,0,,[Errno -3] Temporary failure in name resolution
+2026-09-17T18:48:32+00:00,https://www.sohobcom.ye/en,,0,,[Errno -3] Temporary failure in name resolution
+2026-09-17T18:48:33+00:00,https://agoye.gov.ye/,https://agoye.gov.ye/,200,text/html,
+2026-09-17T18:48:34+00:00,http://ath.gov.ye/,http://ath.gov.ye/,200,text/html,
+2026-09-17T18:48:34+00:00,http://cra.gov.ye/,http://cra.gov.ye/,200,text/html,
+2026-09-17T18:48:35+00:00,https://meoh.gov.ye/,https://meoh.gov.ye/,206,text/html,
+2026-09-17T18:48:36+00:00,https://mmy.gov.ye/,https://mmy.gov.ye/,206,text/html,
+2026-09-17T18:48:36+00:00,https://mohesr.gov.ye/,https://mohesr.gov.ye/mohesr/,200,text/html,
+2026-09-17T18:48:37+00:00,https://tax.gov.ye/,https://tax.gov.ye/,200,text/html,
+2026-09-17T18:48:38+00:00,https://training.tax.gov.ye/,https://training.tax.gov.ye/,206,text/html,
+2026-09-17T18:48:38+00:00,https://www.cra.gov.ye/,https://www.cra.gov.ye/,200,text/html,
+2026-09-17T18:48:38+00:00,https://www.galsup.gov.ye/,https://galsup.gov.ye/,200,text/html,
+2026-09-17T18:48:39+00:00,https://www.ghosanaa.gov.ye/,https://www.ghosanaa.gov.ye/,200,text/html,
+2026-09-17T18:48:39+00:00,http://www.mohesr.gov.ye/,,0,,The read operation timed out
+2026-09-17T18:48:41+00:00,https://www.moj.gov.ye/,https://www.moj.gov.ye/,200,text/html,
+2026-09-17T18:48:41+00:00,https://www.tax.gov.ye/,https://tax.gov.ye/,200,text/html,
+2026-09-17T18:48:42+00:00,https://www.training.tax.gov.ye/,https://www.training.tax.gov.ye/,206,text/html,
