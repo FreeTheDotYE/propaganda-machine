@@ -1,13 +1,13 @@
 # Latest archive run
 
-- Release: [archive-2026-10-25-113](https://github.com/FreeTheDotYE/propaganda-machine/releases/tag/archive-2026-10-25-113)
-- Completed: 2026-10-25T21:11:58Z
-- Configured targets processed: 68
-- WARC files produced: 68
+- Release: [archive-2026-10-26-114](https://github.com/FreeTheDotYE/propaganda-machine/releases/tag/archive-2026-10-26-114)
+- Completed: 2026-10-26T04:37:46Z
+- Configured targets processed: 72
+- WARC files produced: 72
 - Observed .gov.ye domains: 333
-- Reachable .gov.ye web hosts: 58
-- New response records stored: 1754
-- Unchanged payload revisit records: 2589
+- Reachable .gov.ye web hosts: 62
+- New response records stored: 2248
+- Unchanged payload revisit records: 2382
 
 Detailed metadata and every CDX index are retained permanently under history/.
 WARC files are attached to the release, and archive releases are never removed by automation.
