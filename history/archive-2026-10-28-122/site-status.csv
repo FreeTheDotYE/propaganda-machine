@@ -1,0 +1,44 @@
+checked_at,url,final_url,http_status,content_type,error
+2026-10-28T12:27:25+00:00,https://saba.ye,https://saba.ye,403,text/html,Forbidden
+2026-10-28T12:27:25+00:00,https://saba.ye/en,https://saba.ye/en,403,text/html,Forbidden
+2026-10-28T12:27:25+00:00,https://mmy.ye,https://www.mmy.ye/,200,text/html,
+2026-10-28T12:27:25+00:00,https://althawrah.ye,https://althawrah.ye,200,text/html,
+2026-10-28T12:27:25+00:00,https://alsyasiah.ye,https://alsyasiah.ye,206,text/html,
+2026-10-28T12:27:25+00:00,https://sanaaradio.net.ye,,0,,timed out
+2026-10-28T12:27:25+00:00,https://yemen-tv.net.ye,,0,,timed out
+2026-10-28T12:27:25+00:00,https://alsahattv.com.ye,https://alsahattv.com.ye,200,text/html,
+2026-10-28T12:27:25+00:00,https://www.sohobcom.ye/ar,https://www.sohobcom.ye/ar,200,text/html,
+2026-10-28T12:27:25+00:00,https://www.sohobcom.ye/en,https://www.sohobcom.ye/en,200,text/html,
+2026-10-28T12:27:25+00:00,http://agoye.gov.ye/,http://agoye.gov.ye/,200,text/html,
+2026-10-28T12:27:26+00:00,http://agriculture.gov.ye/,http://agriculture.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,
+2026-10-28T12:27:26+00:00,https://airtransport.gov.ye/,https://airtransport.gov.ye/ar,200,text/html,
+2026-10-28T12:27:26+00:00,https://algumhorihosp-san.gov.ye/,,0,,timed out
+2026-10-28T12:27:26+00:00,https://amlcft.gov.ye/,https://amlcft.gov.ye/index.php/ar/,200,text/html,
+2026-10-28T12:27:26+00:00,https://apps.mot.gov.ye/,https://apps.mot.gov.ye/,206,text/html,
+2026-10-28T12:27:27+00:00,https://ar.hocc.gov.ye/,https://ar.hocc.gov.ye/,200,text/html,
+2026-10-28T12:27:28+00:00,https://cama.gov.ye/,https://cama.gov.ye/public/ar,200,text/html,
+2026-10-28T12:27:28+00:00,http://cra.gov.ye/,http://cra.gov.ye/,200,text/html,
+2026-10-28T12:27:28+00:00,https://en.hocc.gov.ye/,https://en.hocc.gov.ye/,200,text/html,
+2026-10-28T12:27:29+00:00,https://galsup.gov.ye/,,0,,timed out
+2026-10-28T12:27:30+00:00,https://gcrb.gov.ye/,https://gcrb.gov.ye/,200,text/html,
+2026-10-28T12:27:31+00:00,https://goam.gov.ye/,,0,,timed out
+2026-10-28T12:27:31+00:00,https://hocc.gov.ye/,https://hocc.gov.ye/,200,text/html,
+2026-10-28T12:27:32+00:00,https://indparkye.gov.ye/,,0,,timed out
+2026-10-28T12:27:34+00:00,https://innovation-record.hasti.gov.ye/,https://innovation-record.hasti.gov.ye/,200,text/html,
+2026-10-28T12:27:35+00:00,https://meoh.gov.ye/,https://meoh.gov.ye/,206,text/html,
+2026-10-28T12:27:35+00:00,https://mmy.gov.ye/,https://mmy.gov.ye/,206,text/html,
+2026-10-28T12:27:35+00:00,https://moit.gov.ye/,https://moit.gov.ye/,200,text/html,
+2026-10-28T12:27:36+00:00,https://msw.gov.ye/,https://msw.gov.ye/,206,text/html,
+2026-10-28T12:27:36+00:00,https://nsw.gov.ye/,https://nsw.gov.ye/,200,text/html,
+2026-10-28T12:27:37+00:00,http://research-priorities.hasti.gov.ye/,,0,,timed out
+2026-10-28T12:27:37+00:00,https://tax.gov.ye/,https://tax.gov.ye/,200,text/html,
+2026-10-28T12:27:37+00:00,https://training.tax.gov.ye/,https://training.tax.gov.ye/,206,text/html,
+2026-10-28T12:27:37+00:00,http://www.algumhorihosp-san.gov.ye/,,0,,timed out
+2026-10-28T12:27:37+00:00,https://www.amlcft.gov.ye/,https://www.amlcft.gov.ye/index.php/ar/,200,text/html,
+2026-10-28T12:27:39+00:00,https://www.cama.gov.ye/,https://www.cama.gov.ye/public/ar,200,text/html,
+2026-10-28T12:27:40+00:00,https://www.hasti.gov.ye/,https://www.hasti.gov.ye/,200,text/html,
+2026-10-28T12:27:40+00:00,https://www.hocc.gov.ye/,https://www.hocc.gov.ye/,200,text/html,
+2026-10-28T12:27:40+00:00,https://www.tax.gov.ye/,https://tax.gov.ye/,200,text/html,
+2026-10-28T12:27:41+00:00,https://www.training.tax.gov.ye/,https://www.training.tax.gov.ye/,206,text/html,
+2026-10-28T12:27:41+00:00,https://yms.gov.ye/,https://yms.gov.ye/,200,text/html,
+2026-10-28T12:27:41+00:00,https://yrspc.gov.ye/,https://yrspc.gov.ye/,206,text/html,
