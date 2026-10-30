@@ -3,7 +3,7 @@
 Methodology version: **2.0.0**
 
 Each run starts with the retained observed `.gov.ye` inventory, combines it
-with current public discovery results, and records every candidate in
+with the canonical `FreeTheDotYE/ye-domains` DNS inventory and current public discovery results, and records every candidate in
 `govye-discovery.csv`. Candidates are selected only when an external
 GitHub-hosted runner receives public HTML without an excluded service,
 outside redirect, or error. Pinned government, media, and related targets are

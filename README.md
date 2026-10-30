@@ -34,9 +34,11 @@ cite the specific archived record and distinguish observation from inference.
 
 ## What the action does
 
-Every Thursday and Saturday, and whenever manually dispatched, the workflow:
+Every six hours, and whenever manually dispatched, the workflow:
 
-1. refreshes `.gov.ye` candidates from the twelve latest Common Crawl indexes,
+1. imports every government website candidate from the canonical
+   [`ye-domains` DNS inventory](https://github.com/FreeTheDotYE/ye-domains),
+   then refreshes candidates from the twelve latest Common Crawl indexes,
    HackerTarget, RapidDNS, certificate-transparency results, and the retained
    source-controlled inventory;
 2. rejects mail, webmail, cPanel, calendar/contact, nameserver, gateway,

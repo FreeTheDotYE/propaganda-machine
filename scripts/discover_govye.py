@@ -113,6 +113,26 @@ def add_host(host: str, source: str, discovered: dict[str, set[str]]) -> None:
         discovered[normalized].add(source)
 
 
+def collect_ye_domains() -> tuple[dict[str, set[str]], list[str]]:
+    """Import government websites already known to the canonical DNS monitor."""
+    found: dict[str, set[str]] = defaultdict(set)
+    try:
+        payload = request_bytes(
+            "https://raw.githubusercontent.com/FreeTheDotYE/ye-domains/main/monitoring/state.jsonl"
+        )
+        for line in payload.decode("utf-8").splitlines():
+            if not line.strip():
+                continue
+            record = json.loads(line)
+            for field in ("hostname", "registrable_domain"):
+                add_host(record.get(field, ""), "ye-domains", found)
+        if not found:
+            raise ValueError("canonical inventory contained no government website candidates")
+        return found, []
+    except Exception as exc:
+        return found, [f"ye-domains: {exc}"]
+
+
 def collect_common_crawl() -> tuple[dict[str, set[str]], list[str]]:
     found: dict[str, set[str]] = defaultdict(set)
     errors: list[str] = []
@@ -281,6 +301,7 @@ def main() -> int:
         add_host(urlsplit(url).hostname or "", "pinned", discovered)
 
     source_collectors = [
+        collect_ye_domains,
         collect_common_crawl,
         collect_hackertarget,
         collect_rapiddns,
