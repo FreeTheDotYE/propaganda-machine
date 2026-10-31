@@ -1,0 +1,698 @@
+checked_at,host,selected_url,final_url,http_status,content_type,sources,error
+2026-10-31T17:05:13+00:00,189.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:13+00:00,acf.gov.ye,,,0,,certificate-transparency;hackertarget;inventory;rapiddns;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:13+00:00,aden.gov.ye,,,0,,certificate-transparency;hackertarget;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:13+00:00,adenradio.gov.ye,,,0,,certificate-transparency;hackertarget;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:13+00:00,admin.cra.gov.ye,,http://admin.cra.gov.ye/,404,text/html,inventory;ye-domains,https: HTTP 403 Forbidden | http: HTTP 404 Not Found
+2026-10-31T17:05:13+00:00,afmis.gov.ye,,,0,,hackertarget;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:13+00:00,afy.gov.ye,,,0,,hackertarget;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:13+00:00,aghhajjah.gov.ye,https://aghhajjah.gov.ye/,https://aghhajjah.gov.ye/,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:05:13+00:00,agoye.gov.ye,https://agoye.gov.ye/,https://agoye.gov.ye/,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:05:13+00:00,agriculture.gov.ye,http://agriculture.gov.ye/,http://agriculture.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:05:13+00:00,airtransport.gov.ye,https://airtransport.gov.ye/,https://airtransport.gov.ye/ar,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:05:13+00:00,albaydhahis.gov.ye,http://albaydhahis.gov.ye/,http://albaydhahis.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:05:13+00:00,algumhorihosp-san.gov.ye,,,0,,hackertarget;inventory;pinned;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:13+00:00,aljabha.moj.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:13+00:00,aljawf.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:13+00:00,almjalh.moj.gov.ye,https://almjalh.moj.gov.ye/,https://almjalh.moj.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:13+00:00,alqdhaeih.moj.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:13+00:00,althawra.gov.ye,,,0,,hackertarget;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:13+00:00,alwahda.gov.ye,,,0,,certificate-transparency;hackertarget;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:13+00:00,amanaedu.gov.ye,http://amanaedu.gov.ye/,http://amanaedu.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;hackertarget;inventory;rapiddns;ye-domains,
+2026-10-31T17:05:13+00:00,amlcft.gov.ye,https://amlcft.gov.ye/,https://amlcft.gov.ye/index.php/ar/,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:05:13+00:00,amranhealth.gov.ye,http://amranhealth.gov.ye/,http://amranhealth.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;hackertarget;inventory;rapiddns;ye-domains,
+2026-10-31T17:05:13+00:00,apcra.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:13+00:00,api.munsif.gov.ye,https://api.munsif.gov.ye/,https://api.munsif.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:13+00:00,api.yrspc.gov.ye,,,0,,inventory;ye-domains,https: _ssl.c:1063: The handshake operation timed out | http: _ssl.c:1063: The handshake operation timed out
+2026-10-31T17:05:13+00:00,app.area.gov.ye,,,0,,inventory,https: timed out | http: timed out
+2026-10-31T17:05:13+00:00,app.centralbank.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:13+00:00,app.fiu.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:13+00:00,app.yrspc.gov.ye,,,0,,inventory;ye-domains,https: _ssl.c:1063: The handshake operation timed out | http: _ssl.c:1063: The handshake operation timed out
+2026-10-31T17:05:13+00:00,apps.mot.gov.ye,https://apps.mot.gov.ye/,https://apps.mot.gov.ye/,206,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:05:13+00:00,ar.hocc.gov.ye,https://ar.hocc.gov.ye/,https://ar.hocc.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:13+00:00,area.gov.ye,,http://area.gov.ye/,404,text/html,hackertarget;inventory;ye-domains,https: The read operation timed out | http: HTTP 404 Not Found
+2026-10-31T17:05:13+00:00,ath.gov.ye,https://ath.gov.ye/,https://ath.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:05:13+00:00,authmohe.gov.ye,https://authmohe.gov.ye/,https://authmohe.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:14+00:00,awqaf.gov.ye,https://awqaf.gov.ye/,https://awqaf.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:14+00:00,bdic.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:14+00:00,bordersoffice.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:14+00:00,bscx.moit.gov.ye,,https://bscx.moit.gov.ye/,403,text/html,inventory;ye-domains,https: HTTP 403 Forbidden | http: timed out
+2026-10-31T17:05:14+00:00,cama.gov.ye,https://cama.gov.ye/,https://cama.gov.ye/public/ar,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:05:14+00:00,camanew.cama.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:14+00:00,capitalsanaa.gov.ye,https://capitalsanaa.gov.ye/,https://capitalsanaa.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:15+00:00,cappo.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:15+00:00,caqa.gov.ye,https://caqa.gov.ye/,https://caqa.gov.ye/,200,text/html,inventory;pinned;ye-domains,
+2026-10-31T17:05:15+00:00,cby-ex01.centralbank.gov.ye,,,0,,inventory;ye-domains,https: Remote end closed connection without response | http: timed out
+2026-10-31T17:05:15+00:00,cby.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:16+00:00,cdu.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:17+00:00,cediu.gov.ye,https://cediu.gov.ye/,https://cediu.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:17+00:00,centralbank.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:18+00:00,cid.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:19+00:00,cleaningfund.gov.ye,https://cleaningfund.gov.ye/,https://cleaningfund.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:19+00:00,cloud.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:20+00:00,coca.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:21+00:00,comp.ltaa.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:22+00:00,comtc.mof.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:23+00:00,con.ygc.gov.ye,,,0,,inventory;ye-domains,https: The read operation timed out | http: timed out
+2026-10-31T17:05:23+00:00,cp-trade-magazine.moit.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:23+00:00,cp.cama.gov.ye,https://cp.cama.gov.ye/,https://cp.cama.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:05:24+00:00,cp.yrspc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:24+00:00,cra.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:24+00:00,cs.gov.ye,http://cs.gov.ye/,http://cs.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:05:26+00:00,cso.gov.ye,,http://cso.gov.ye/,404,text/html,certificate-transparency;inventory;ye-domains,https: HTTP 500 Internal Server Error | http: HTTP 404 Not Found
+2026-10-31T17:05:26+00:00,cuas-mof.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:26+00:00,custom-it.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:28+00:00,customs.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:28+00:00,cy.hasti.gov.ye,http://cy.hasti.gov.ye/,https://cy.hasti.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:29+00:00,cyber.sis.gov.ye,https://cyber.sis.gov.ye/,https://cyber.sis.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:29+00:00,darsys.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:30+00:00,der.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:30+00:00,dh.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:30+00:00,dhamar.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:30+00:00,dhamarwslc.mwe.gov.ye,,,0,,inventory;ye-domains,https: The read operation timed out | http: timed out
+2026-10-31T17:05:30+00:00,dhis2.moh.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:30+00:00,dim.ptc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno 111] Connection refused | http: [Errno 111] Connection refused
+2026-10-31T17:05:30+00:00,dsiye.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:30+00:00,dsuye.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:30+00:00,dsuyecom.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:30+00:00,dsuyeeducation.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:30+00:00,e-moit.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:31+00:00,e-tax.gov.ye,,https://e-tax.gov.ye:443/,403,text/html,certificate-transparency;inventory;ye-domains,https: HTTP 403 Forbidden | http: HTTP 403 Forbidden
+2026-10-31T17:05:31+00:00,e.mocsi.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:31+00:00,edge.centralbank.gov.ye,,,0,,inventory;ye-domains,https: Remote end closed connection without response | http: timed out
+2026-10-31T17:05:32+00:00,edge.fiu.gov.ye,,https://edge.fiu.gov.ye/owa/,403,text/plain,inventory;ye-domains,https: HTTP 403 Forbidden | http: timed out
+2026-10-31T17:05:32+00:00,elearning.amanaedu.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:32+00:00,elections.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:32+00:00,elvaroot.agoye.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:32+00:00,en.hocc.gov.ye,https://en.hocc.gov.ye/,https://en.hocc.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:32+00:00,english.yrspc.gov.ye,,,0,,inventory,https: timed out | http: timed out
+2026-10-31T17:05:32+00:00,enjaz.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:32+00:00,eomnv.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:32+00:00,epa.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:32+00:00,erppro.gia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:33+00:00,erpv.eomnv.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:33+00:00,esrdn.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:33+00:00,eu.garwsp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:33+00:00,event.nsw.gov.ye,https://event.nsw.gov.ye/,https://event.nsw.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:33+00:00,events.hasti.gov.ye,http://events.hasti.gov.ye/,https://events.hasti.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:33+00:00,fi.mof.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:34+00:00,fiu-ex01.fiu.gov.ye,,https://fiu-ex01.fiu.gov.ye/owa/,403,text/plain,inventory;ye-domains,https: HTTP 403 Forbidden | http: timed out
+2026-10-31T17:05:34+00:00,fiu.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:34+00:00,frisd.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:34+00:00,gabpd.gov.ye,https://gabpd.gov.ye/,https://gabpd.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:35+00:00,galsub.gov.ye,,,0,,inventory;rapiddns;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:35+00:00,galsup.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:35+00:00,garwsp-eu.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:35+00:00,garwsp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:35+00:00,gasmed.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:36+00:00,gasspy.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:36+00:00,gcrb.gov.ye,https://gcrb.gov.ye/,https://gcrb.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:40+00:00,gcsbpp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:40+00:00,genral-pc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:40+00:00,geoportal.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:40+00:00,german-resources-company.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:40+00:00,ghosanaa.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:41+00:00,gia.gov.ye,http://gia.gov.ye/,http://gia.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:05:41+00:00,giay.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:41+00:00,gis.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:42+00:00,goam.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:42+00:00,gov.ye,,,0,,inventory;ye-domains,https: [Errno -5] No address associated with hostname | http: [Errno -5] No address associated with hostname
+2026-10-31T17:05:42+00:00,gscp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:43+00:00,gspr.gov.ye,,http://gspr.gov.ye/,404,text/html,inventory;ye-domains,https: HTTP 403 Forbidden | http: HTTP 404 Not Found
+2026-10-31T17:05:43+00:00,gtda.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:43+00:00,hadarahbook.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:43+00:00,hadhramaut.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:44+00:00,hadhramout.gov.ye,,http://hadhramout.gov.ye/,302,text/html,certificate-transparency;inventory;ye-domains,"https: HTTP 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found | http: HTTP 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found"
+2026-10-31T17:05:44+00:00,hadramoutbts.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:44+00:00,haj.gov.ye,https://haj.gov.ye/,https://haj.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:44+00:00,hajjahmla.gov.ye,http://hajjahmla.gov.ye/,http://hajjahmla.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:05:44+00:00,hasti.gov.ye,https://hasti.gov.ye/,https://hasti.gov.ye/,200,text/html,certificate-transparency;inventory;pinned;rapiddns;ye-domains,
+2026-10-31T17:05:45+00:00,hastierp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:45+00:00,hccceb.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:46+00:00,hdgate.hadhramout.gov.ye,,http://hdgate.hadhramout.gov.ye/,403,text/html,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno 104] Connection reset by peer | http: HTTP 403 Forbidden
+2026-10-31T17:05:46+00:00,hji.moj.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:46+00:00,hocc.gov.ye,https://hocc.gov.ye/,https://hocc.gov.ye/,200,text/html,inventory;pinned;ye-domains,
+2026-10-31T17:05:46+00:00,hod.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:46+00:00,hospitalaya.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:46+00:00,hq.pec.gov.ye,http://hq.pec.gov.ye/,http://hq.pec.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:05:46+00:00,htb.gov.ye,http://htb.gov.ye/,http://htb.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:05:47+00:00,ibb-wslc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:47+00:00,ibbwslc.mwe.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: The read operation timed out
+2026-10-31T17:05:47+00:00,ic.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:47+00:00,idsmap.cso.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:48+00:00,im.moh.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:48+00:00,immigrants.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:48+00:00,in.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:48+00:00,indparkye.gov.ye,https://indparkye.gov.ye/,https://indparkye.gov.ye/,200,text/html,inventory;pinned;ye-domains,
+2026-10-31T17:05:48+00:00,innovation-record.hasti.gov.ye,https://innovation-record.hasti.gov.ye/,https://innovation-record.hasti.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:49+00:00,investinyemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:49+00:00,ipna.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:49+00:00,ipv6.189.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:49+00:00,ipv6.albaydhahis.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:49+00:00,ipv6.elearning.amanaedu.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:49+00:00,ipv6.gia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:49+00:00,ipv6.hajjahmla.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:49+00:00,ipv6.htb.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:50+00:00,ipv6.ltaa.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:50+00:00,ipv6.mom.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:50+00:00,ipv6.pec.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:50+00:00,ipv6.smc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:50+00:00,ipv6.snacc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:51+00:00,ipv6.suerp.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:51+00:00,ipv6.yemenvision.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:51+00:00,ipv6.yiig.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:51+00:00,ipv6.yms.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:51+00:00,ir.hasti.gov.ye,https://ir.hasti.gov.ye/,https://ir.hasti.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:51+00:00,islandsauthority.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:51+00:00,iu.moit.gov.ye,,,0,,inventory;ye-domains,https: _ssl.c:1063: The handshake operation timed out | http: _ssl.c:1063: The handshake operation timed out
+2026-10-31T17:05:51+00:00,japanembassy.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:51+00:00,jia-au.gov.ye,https://jia-au.gov.ye/,https://jia-au.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:51+00:00,jia.gov.ye,http://jia.gov.ye/,http://jia.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:05:51+00:00,jit.ptc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno 111] Connection refused | http: [Errno 111] Connection refused
+2026-10-31T17:05:52+00:00,jklsanaa.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:52+00:00,jmoeew.gov.ye,https://jmoeew.gov.ye/,https://jmoeew.gov.ye/index.php/ojs,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:52+00:00,jobs.ptc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:52+00:00,journal.area.gov.ye,https://journal.area.gov.ye/,https://journal.area.gov.ye/en,200,text/html,inventory;ye-domains,
+2026-10-31T17:05:52+00:00,justice.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:52+00:00,legal-affairs.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:53+00:00,legalaffairs.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:53+00:00,ltaa.gov.ye,https://ltaa.gov.ye/,https://ltaa.gov.ye/index.php/ar/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:05:56+00:00,m.cama.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:56+00:00,ma-ibb.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:56+00:00,maa.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:56+00:00,mafwr.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:56+00:00,mail2.hocc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:57+00:00,manuscripts.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:57+00:00,mat.ptc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno 111] Connection refused | http: [Errno 111] Connection refused
+2026-10-31T17:05:57+00:00,mctqi.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:57+00:00,me.eomnv.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:58+00:00,meet.ptc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno 111] Connection refused | http: [Errno 111] Connection refused
+2026-10-31T17:05:58+00:00,meoh.gov.ye,https://meoh.gov.ye/,https://meoh.gov.ye/,206,text/html,inventory;pinned;ye-domains,
+2026-10-31T17:05:58+00:00,mfw.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:58+00:00,mitopro.gia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:05:58+00:00,mmy.gov.ye,https://mmy.gov.ye/,https://mmy.gov.ye/,206,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:05:58+00:00,mnh.moh.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:59+00:00,moai.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:05:59+00:00,moc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:05:59+00:00,mocsi.gov.ye,http://mocsi.gov.ye/,http://mocsi.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:05:59+00:00,mocsi3.mocsi.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:00+00:00,mocsi4.mocsi.gov.ye,,,0,,inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:00+00:00,mocsi5.mocsi.gov.ye,,,0,,inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:01+00:00,mocsi6.mocsi.gov.ye,,,0,,inventory;rapiddns,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:01+00:00,mocsi7.mocsi.gov.ye,,,0,,inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:01+00:00,mocsi9.mocsi.gov.ye,,,0,,inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:01+00:00,moe.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:01+00:00,moee.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:02+00:00,moeew.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:02+00:00,mof.gov.ye,https://mof.gov.ye/,https://mof.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:06:02+00:00,mofa.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:02+00:00,moh.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:03+00:00,mohe.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:03+00:00,mohesr.gov.ye,,https://mohesr.gov.ye/mohesr/,500,text/html,certificate-transparency;inventory;rapiddns;ye-domains,https: HTTP 500 Internal Server Error | http: HTTP 500 Internal Server Error
+2026-10-31T17:06:03+00:00,moia.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:04+00:00,moit.gov.ye,https://moit.gov.ye/,https://moit.gov.ye/,200,text/html,certificate-transparency;inventory;pinned;rapiddns;ye-domains,
+2026-10-31T17:06:04+00:00,moit.yipo.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:05+00:00,moj.gov.ye,,,0,,certificate-transparency;inventory;pinned;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:05+00:00,molay.gov.ye,,http://molay.gov.ye/,503,text/html,certificate-transparency;inventory;ye-domains,https: timed out | http: HTTP 503 Service Temporarily Unavailable
+2026-10-31T17:06:05+00:00,molayemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:05+00:00,mom-medical.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:06+00:00,mom.gov.ye,https://mom.gov.ye/,https://mom.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:06:06+00:00,mosal.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:08+00:00,mot.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:08+00:00,mpic-aden.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:08+00:00,mpic.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:08+00:00,mpwhsanaa.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:09+00:00,mpwud.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:09+00:00,mr.hasti.gov.ye,https://mr.hasti.gov.ye/,https://mr.hasti.gov.ye/login/?next=/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:09+00:00,msdc.gov.ye,https://msdc.gov.ye/,https://msdc.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:10+00:00,mssql.bdic.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:10+00:00,mssql.garwsp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:12+00:00,mssql.mfw.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:12+00:00,mssql.pec.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:13+00:00,mssql.yms.gov.ye,http://mssql.yms.gov.ye/,http://mssql.yms.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:06:13+00:00,msw.gov.ye,https://msw.gov.ye/,https://msw.gov.ye/,206,text/html,inventory;pinned;ye-domains,
+2026-10-31T17:06:13+00:00,mtevt-taiz.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:13+00:00,mtevt.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:13+00:00,mtit.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:13+00:00,munsif.gov.ye,https://munsif.gov.ye/,https://munsif.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:13+00:00,mwe.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:13+00:00,n-tfc-moh.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:14+00:00,nataeji.moe.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:14+00:00,natec.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:14+00:00,navy.gov.ye,,http://navy.gov.ye/,404,text/html,inventory;ye-domains,https: HTTP 403 Forbidden | http: HTTP 404 Not Found
+2026-10-31T17:06:15+00:00,nccbds.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:15+00:00,ncsc.gov.ye,,http://ncsc.gov.ye/,404,text/html,inventory;ye-domains,https: timed out | http: HTTP 404 Not Found
+2026-10-31T17:06:15+00:00,new.hasti.gov.ye,,https://new.hasti.gov.ye/,400,text/html,inventory;ye-domains,https: HTTP 400 Bad Request | http: HTTP 400 Bad Request
+2026-10-31T17:06:15+00:00,newspaper.moj.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:15+00:00,nic.gov.ye,https://nic.gov.ye/,https://nic.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:06:15+00:00,nip.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:16+00:00,npcsh.gov.ye,https://npcsh.gov.ye/,https://npcsh.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:06:16+00:00,nrece.moee.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:17+00:00,nsw.gov.ye,https://nsw.gov.ye/,https://nsw.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:18+00:00,ntfoyemen.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:18+00:00,ntfy.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:18+00:00,nut.moh.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:18+00:00,nvdl.gov.ye,http://nvdl.gov.ye/,http://nvdl.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:06:18+00:00,nvms.eomnv.gov.ye,http://nvms.eomnv.gov.ye/,http://nvms.eomnv.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:18+00:00,nwrayemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:19+00:00,olympics.hasti.gov.ye,https://olympics.hasti.gov.ye/,https://olympics.hasti.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:19+00:00,opp.gia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:19+00:00,ormis-mof.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:19+00:00,pa-yemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:20+00:00,pare.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:20+00:00,parliament.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:21+00:00,pass.centralbank.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:22+00:00,pccdm.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:22+00:00,pec-wh-ps.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:22+00:00,pec.gov.ye,,http://pec.gov.ye/,404,text/html,certificate-transparency;inventory;ye-domains,https: HTTP 500 Internal Server Error | http: HTTP 404 Not Found
+2026-10-31T17:06:22+00:00,pesticides.gov.ye,https://pesticides.gov.ye/,https://pesticides.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:06:23+00:00,pfmod.gov.ye,https://pfmod.gov.ye/,https://pfmod.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:06:23+00:00,pfmp.mof.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:23+00:00,pgfpp.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:23+00:00,pm.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:23+00:00,pmo.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:24+00:00,po.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:24+00:00,police-info.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:24+00:00,portal.customs.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:24+00:00,portal.mocsi.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:24+00:00,portal.ysmc.gov.ye,https://portal.ysmc.gov.ye/,https://portal.ysmc.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:25+00:00,pppc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:25+00:00,presidency.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:25+00:00,presidenthadi.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:25+00:00,presidentialoffice.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:27+00:00,presidentsaleh.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:27+00:00,ptc.gov.ye,https://ptc.gov.ye/,https://ptc.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:06:28+00:00,qada.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:28+00:00,qr-moit.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:28+00:00,qtaralnada.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:28+00:00,queensys.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:29+00:00,rabet.hasti.gov.ye,https://rabet.hasti.gov.ye/,https://rabet.hasti.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:29+00:00,raydan.goam.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:29+00:00,rdc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:30+00:00,research-priorities.hasti.gov.ye,https://research-priorities.hasti.gov.ye/,https://research-priorities.hasti.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:30+00:00,ret.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:31+00:00,rmfhc.gov.ye,,https://rmfhc.gov.ye/,301,text/html,inventory;ye-domains,"https: HTTP 301 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently | http: HTTP 301 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently"
+2026-10-31T17:06:31+00:00,rp.ptc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:31+00:00,s-tawasul.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:31+00:00,s.jia-au.gov.ye,https://s.jia-au.gov.ye/,https://s.jia-au.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:32+00:00,s.mocsi.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:32+00:00,sabanews.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:32+00:00,sadah.gov.ye,https://sadah.gov.ye/,https://sadah.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:06:32+00:00,saicmyemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:33+00:00,sanaagassp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:34+00:00,sanaampwh.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:34+00:00,sanctionssearch.hocc.gov.ye,https://sanctionssearch.hocc.gov.ye/,https://sanctionssearch.hocc.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:34+00:00,savetime.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:35+00:00,sbdma.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:35+00:00,scer.gov.ye,,http://scer.gov.ye/,503,text/html,certificate-transparency;inventory;ye-domains,https: timed out | http: HTTP 503 Service Temporarily Unavailable
+2026-10-31T17:06:35+00:00,scimmp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:35+00:00,sciyyp.gov.ye,,,0,,inventory;ye-domains,https: [Errno -5] No address associated with hostname | http: [Errno -5] No address associated with hostname
+2026-10-31T17:06:35+00:00,sdf-yemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:35+00:00,sec.gov.ye,,http://sec.gov.ye/,503,text/html,inventory;ye-domains,https: timed out | http: HTTP 503 Service Temporarily Unavailable
+2026-10-31T17:06:36+00:00,secularyemenis.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:36+00:00,services.mofa.gov.ye,https://services.mofa.gov.ye/,https://services.mofa.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:36+00:00,sez.gov.ye,https://sez.gov.ye/,https://sez.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:06:36+00:00,sfp.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:36+00:00,shabwah.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:37+00:00,shohadaa.gov.ye,https://shohadaa.gov.ye/,https://shohadaa.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:37+00:00,shoora.gov.ye,http://shoora.gov.ye/,http://shoora.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:06:37+00:00,sindbad.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:37+00:00,sis.gov.ye,http://sis.gov.ye/,http://sis.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:06:38+00:00,sjc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:38+00:00,sjcyemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:38+00:00,slo.gov.ye,https://slo.gov.ye/,https://slo.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:39+00:00,smc.gov.ye,https://smc.gov.ye/,https://smc.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:06:39+00:00,smp-mof.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:39+00:00,snacc.gov.ye,https://snacc.gov.ye/,https://snacc.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:06:40+00:00,snackglopl.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:40+00:00,srf.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:40+00:00,srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:40+00:00,srsps-mohe.gov.ye,http://srsps-mohe.gov.ye/,http://srsps-mohe.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:40+00:00,staticmohe.gov.ye,,http://staticmohe.gov.ye/,404,text/html,inventory;ye-domains,https: The read operation timed out | http: HTTP 404 Not Found
+2026-10-31T17:06:40+00:00,studies.nic.gov.ye,https://studies.nic.gov.ye/,https://studies.nic.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:06:40+00:00,suerp.gov.ye,http://suerp.gov.ye/,http://suerp.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:06:40+00:00,survey-authority.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:41+00:00,swf.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:41+00:00,tawasul.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:41+00:00,tax-capital.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:42+00:00,tax.gov.ye,https://tax.gov.ye/,https://tax.gov.ye/,200,text/html,certificate-transparency;inventory;pinned;ye-domains,
+2026-10-31T17:06:42+00:00,taxltu.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:42+00:00,tclms.tax.gov.ye,https://tclms.tax.gov.ye/,https://tclms.tax.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:43+00:00,tda.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:43+00:00,tech-city.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:43+00:00,temp.hasti.gov.ye,,https://temp.hasti.gov.ye/,400,text/html,inventory;ye-domains,https: HTTP 400 Bad Request | http: HTTP 400 Bad Request
+2026-10-31T17:06:45+00:00,tevt-project.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:45+00:00,tmgh.gov.ye,https://tmgh.gov.ye/,https://tmgh.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:45+00:00,tn-search.moit.gov.ye,https://tn-search.moit.gov.ye/,https://tn-search.moit.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:45+00:00,topresidency.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno 111] Connection refused | http: timed out
+2026-10-31T17:06:45+00:00,tourism.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:46+00:00,tourisminyemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:46+00:00,tourismyemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:46+00:00,tr-sanaa.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:47+00:00,trade-magazine.moit.gov.ye,,http://trade-magazine.moit.gov.ye/,403,text/html,inventory;ye-domains,https: HTTP 403 Forbidden | http: HTTP 403 Forbidden
+2026-10-31T17:06:47+00:00,training.tax.gov.ye,https://training.tax.gov.ye/,https://training.tax.gov.ye/,206,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:06:47+00:00,trye.gov.ye,https://trye.gov.ye/,https://trye.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:06:47+00:00,twslc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:48+00:00,uajnas.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:48+00:00,unimaxhospital.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:48+00:00,vieo.gov.ye,,http://vieo.gov.ye/,503,text/html,inventory;ye-domains,https: timed out | http: HTTP 503 Service Temporarily Unavailable
+2026-10-31T17:06:48+00:00,vip-ptc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:49+00:00,visa.ipna.gov.ye,,http://visa.ipna.gov.ye/,404,text/html,ye-domains,https: HTTP 404 Not Found | http: HTTP 404 Not Found
+2026-10-31T17:06:49+00:00,visionofedu.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:49+00:00,vouchers.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:49+00:00,wateraljawf.gov.ye,,http://wateraljawf.gov.ye/,503,text/html,certificate-transparency;inventory;ye-domains,https: timed out | http: HTTP 503 Service Temporarily Unavailable
+2026-10-31T17:06:49+00:00,web.aghhajjah.gov.ye,http://web.aghhajjah.gov.ye/,http://web.aghhajjah.gov.ye/,200,text/html,hackertarget;inventory;ye-domains,
+2026-10-31T17:06:50+00:00,web.scer.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:50+00:00,www.189.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:50+00:00,www.acf.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:51+00:00,www.aden.gov.ye,,,0,,hackertarget;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:51+00:00,www.adenradio.gov.ye,,,0,,hackertarget;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:51+00:00,www.afmis.gov.ye,,,0,,hackertarget;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:52+00:00,www.afy.gov.ye,,,0,,hackertarget;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:52+00:00,www.aghhajjah.gov.ye,https://www.aghhajjah.gov.ye/,https://www.aghhajjah.gov.ye/,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:06:52+00:00,www.agoye.gov.ye,https://www.agoye.gov.ye/,https://www.agoye.gov.ye/,200,text/html,certificate-transparency;hackertarget;inventory;pinned;ye-domains,
+2026-10-31T17:06:52+00:00,www.agriculture.gov.ye,http://www.agriculture.gov.ye/,http://www.agriculture.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:06:52+00:00,www.airtransport.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1081) | http: timed out
+2026-10-31T17:06:53+00:00,www.albaydhahis.gov.ye,http://www.albaydhahis.gov.ye/,http://www.albaydhahis.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:06:53+00:00,www.algumhorihosp-san.gov.ye,https://www.algumhorihosp-san.gov.ye/,https://www.algumhorihosp-san.gov.ye/,200,text/html,hackertarget;inventory;ye-domains,
+2026-10-31T17:06:53+00:00,www.aljawf.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:53+00:00,www.althawra.gov.ye,,,0,,hackertarget;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:54+00:00,www.alwahda.gov.ye,,,0,,hackertarget;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:06:54+00:00,www.amanaedu.gov.ye,http://www.amanaedu.gov.ye/,http://www.amanaedu.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:06:54+00:00,www.amlcft.gov.ye,https://www.amlcft.gov.ye/,https://www.amlcft.gov.ye/index.php/ar/,200,text/html,certificate-transparency;hackertarget;inventory;ye-domains,
+2026-10-31T17:06:56+00:00,www.amranhealth.gov.ye,http://www.amranhealth.gov.ye/,http://www.amranhealth.gov.ye/cgi-sys/suspendedpage.cgi,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:06:56+00:00,www.apcra.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:56+00:00,www.area.gov.ye,,http://www.area.gov.ye/,404,text/html,inventory;ye-domains,https: _ssl.c:1063: The handshake operation timed out | http: HTTP 404 Not Found
+2026-10-31T17:06:57+00:00,www.ath.gov.ye,https://www.ath.gov.ye/,https://ath.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:06:57+00:00,www.authmohe.gov.ye,https://www.authmohe.gov.ye/,https://www.authmohe.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:57+00:00,www.awqaf.gov.ye,https://www.awqaf.gov.ye/,https://www.awqaf.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:58+00:00,www.bdic.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:58+00:00,www.bordersoffice.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:58+00:00,www.cama.gov.ye,https://www.cama.gov.ye/,https://www.cama.gov.ye/public/ar,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:06:58+00:00,www.camanew.cama.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:06:59+00:00,www.capitalsanaa.gov.ye,https://www.capitalsanaa.gov.ye/,https://www.capitalsanaa.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:59+00:00,www.cappo.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:59+00:00,www.caqa.gov.ye,https://www.caqa.gov.ye/,https://www.caqa.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:06:59+00:00,www.cby.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:06:59+00:00,www.cdu.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:00+00:00,www.cediu.gov.ye,,http://www.cediu.gov.ye/,404,text/html,inventory;ye-domains,https: _ssl.c:1063: The handshake operation timed out | http: HTTP 404 Not Found
+2026-10-31T17:07:00+00:00,www.centralbank.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:01+00:00,www.cleaningfund.gov.ye,https://www.cleaningfund.gov.ye/,https://www.cleaningfund.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:01+00:00,www.coca.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:01+00:00,www.comp.ltaa.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:02+00:00,www.comtc.mof.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:02+00:00,www.cp.cama.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:02+00:00,www.cra.gov.ye,https://www.cra.gov.ye/,https://www.cra.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:07:02+00:00,www.cs.gov.ye,http://www.cs.gov.ye/,http://www.cs.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:07:02+00:00,www.cso.gov.ye,,http://www.cso.gov.ye/,404,text/html,certificate-transparency;inventory;ye-domains,https: HTTP 500 Internal Server Error | http: HTTP 404 Not Found
+2026-10-31T17:07:02+00:00,www.cuas-mof.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:02+00:00,www.customs.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:02+00:00,www.darsys.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:02+00:00,www.der.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:02+00:00,www.dh.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:04+00:00,www.dhamar.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:04+00:00,www.dsiye.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:04+00:00,www.dsuye.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:04+00:00,www.dsuyecom.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:04+00:00,www.dsuyeeducation.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:04+00:00,www.e-tax.gov.ye,,https://www.e-tax.gov.ye/,403,text/html,inventory;ye-domains,https: HTTP 403 Forbidden | http: [Errno 111] Connection refused
+2026-10-31T17:07:04+00:00,www.elearning.amanaedu.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:04+00:00,www.elections.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:04+00:00,www.elvaroot.agoye.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:04+00:00,www.eomnv.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:04+00:00,www.erp.eomnv.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:04+00:00,www.erppro.gia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:04+00:00,www.erpv.eomnv.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:05+00:00,www.esrdn.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:05+00:00,www.fi.mof.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:05+00:00,www.fiu.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:05+00:00,www.fleetcart.cama.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:05+00:00,www.frisd.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:05+00:00,www.galsup.gov.ye,https://www.galsup.gov.ye/,https://galsup.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:05+00:00,www.garwsp-eu.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:05+00:00,www.garwsp.gov.ye,,,0,,inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:05+00:00,www.gasmed.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:05+00:00,www.gasspy.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:05+00:00,www.gcrb.gov.ye,https://www.gcrb.gov.ye/,https://www.gcrb.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:05+00:00,www.gcsbpp.gov.ye,https://www.gcsbpp.gov.ye/,https://www.gcsbpp.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:06+00:00,www.geoportal.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:07+00:00,www.german-resources-company.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:07+00:00,www.ghosanaa.gov.ye,https://www.ghosanaa.gov.ye/,https://www.ghosanaa.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:08+00:00,www.gia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:09+00:00,www.giay.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:09+00:00,www.gis.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:09+00:00,www.goam.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:10+00:00,www.gscp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:10+00:00,www.gspr.gov.ye,,http://www.gspr.gov.ye/,404,text/html,inventory;ye-domains,https: HTTP 403 Forbidden | http: HTTP 404 Not Found
+2026-10-31T17:07:10+00:00,www.gtda.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:10+00:00,www.hadarahbook.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:10+00:00,www.hadhramaut.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:10+00:00,www.hadhramout.gov.ye,,http://www.hadhramout.gov.ye/,302,text/html,certificate-transparency;inventory;rapiddns;ye-domains,"https: HTTP 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found | http: HTTP 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found"
+2026-10-31T17:07:10+00:00,www.hadramoutbts.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:10+00:00,www.haj.gov.ye,,http://www.haj.gov.ye/,404,text/html,inventory;ye-domains,https: HTTP 404 NOT FOUND | http: HTTP 404 NOT FOUND
+2026-10-31T17:07:11+00:00,www.hajjahmla.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:11+00:00,www.hasti.gov.ye,https://www.hasti.gov.ye/,https://www.hasti.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:12+00:00,www.hastierp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:12+00:00,www.hccceb.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:12+00:00,www.hocc.gov.ye,https://www.hocc.gov.ye/,https://www.hocc.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:12+00:00,www.hod.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:12+00:00,www.hospitalaya.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:13+00:00,www.htb.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:13+00:00,www.ibb-wslc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:13+00:00,www.ic.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:13+00:00,www.idsmap.cso.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:13+00:00,www.immigrants.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:13+00:00,www.in.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:14+00:00,www.indparkye.gov.ye,https://www.indparkye.gov.ye/,https://www.indparkye.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:14+00:00,www.investinyemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:14+00:00,www.ipna.gov.ye,,http://www.ipna.gov.ye/,404,text/html,certificate-transparency;inventory;ye-domains,https: The read operation timed out | http: HTTP 404 Not Found
+2026-10-31T17:07:14+00:00,www.islandsauthority.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:14+00:00,www.japanembassy.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:15+00:00,www.jia-au.gov.ye,https://www.jia-au.gov.ye/,https://www.jia-au.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:15+00:00,www.jia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:15+00:00,www.jklsanaa.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:16+00:00,www.jmoeew.gov.ye,,https://www.jmoeew.gov.ye/,400,text/html,inventory;ye-domains,https: HTTP 400 Bad Request | http: HTTP 400 Bad Request
+2026-10-31T17:07:16+00:00,www.justice.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:16+00:00,www.legal-affairs.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:16+00:00,www.legalaffairs.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:17+00:00,www.ltaa.gov.ye,https://www.ltaa.gov.ye/,https://www.ltaa.gov.ye/index.php/ar/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:07:18+00:00,www.m.cama.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:19+00:00,www.ma-ibb.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:19+00:00,www.maa.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:19+00:00,www.mafwr.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:19+00:00,www.mail.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:19+00:00,www.mail.mtit.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:19+00:00,www.manuscripts.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:20+00:00,www.mctqi.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:20+00:00,www.me.eomnv.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:21+00:00,www.meoh.gov.ye,https://www.meoh.gov.ye/,https://meoh.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:07:21+00:00,www.mfw.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:21+00:00,www.mitopro.gia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:22+00:00,www.mmy.gov.ye,,https://www.alyemenione.com/,200,text/html,certificate-transparency;inventory;ye-domains,https: redirected outside .gov.ye to www.alyemenione.com | http: redirected outside .gov.ye to www.alyemenione.com
+2026-10-31T17:07:22+00:00,www.moc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:22+00:00,www.mocsi.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:22+00:00,www.moe.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:23+00:00,www.moee.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:24+00:00,www.moeew.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:25+00:00,www.mof.gov.ye,https://www.mof.gov.ye/,https://mof.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:25+00:00,www.mofa.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:25+00:00,www.moh.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:26+00:00,www.mohe.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:26+00:00,www.mohesr.gov.ye,,https://mohesr.gov.ye/mohesr/,500,text/html,certificate-transparency;inventory;rapiddns;ye-domains,https: HTTP 500 Internal Server Error | http: HTTP 500 Internal Server Error
+2026-10-31T17:07:26+00:00,www.moia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: The read operation timed out | http: timed out
+2026-10-31T17:07:27+00:00,www.moit.gov.ye,https://www.moit.gov.ye/,https://www.moit.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:28+00:00,www.moj.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:28+00:00,www.molay.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:28+00:00,www.molayemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:28+00:00,www.mom-medical.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:29+00:00,www.mom.gov.ye,https://www.mom.gov.ye/,https://mom.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:07:29+00:00,www.mosal.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:29+00:00,www.mot.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:29+00:00,www.mpic-aden.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:30+00:00,www.mpic.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:30+00:00,www.mpwhsanaa.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:30+00:00,www.mpwud.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:32+00:00,www.msdc.gov.ye,https://www.msdc.gov.ye/,https://msdc.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:32+00:00,www.msw.gov.ye,https://www.msw.gov.ye/,https://www.msw.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:07:32+00:00,www.mtevt-taiz.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:32+00:00,www.mtevt.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:33+00:00,www.mtit.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:33+00:00,www.munsif.gov.ye,https://www.munsif.gov.ye/,https://www.munsif.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:34+00:00,www.mwe.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:35+00:00,www.n-tfc-moh.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:35+00:00,www.nataeji.moe.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:36+00:00,www.natec.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:36+00:00,www.navy.gov.ye,,http://www.navy.gov.ye/,404,text/html,inventory;ye-domains,https: HTTP 403 Forbidden | http: HTTP 404 Not Found
+2026-10-31T17:07:36+00:00,www.nccbds.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:36+00:00,www.ncsc.gov.ye,,http://www.ncsc.gov.ye/,404,text/html,inventory;ye-domains,https: timed out | http: HTTP 404 Not Found
+2026-10-31T17:07:36+00:00,www.nic.gov.ye,https://www.nic.gov.ye/,https://www.nic.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:37+00:00,www.nip.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:37+00:00,www.npcsh.gov.ye,,http://www.npcsh.gov.ye/,500,text/html,inventory;ye-domains,https: HTTP 500 Internal Server Error | http: HTTP 500 Internal Server Error
+2026-10-31T17:07:37+00:00,www.nsw.gov.ye,,http://www.nsw.gov.ye/,502,text/html,inventory;ye-domains,https: HTTP 502 Bad Gateway | http: HTTP 502 Bad Gateway
+2026-10-31T17:07:38+00:00,www.ntfoyemen.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:39+00:00,www.nvdl.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:39+00:00,www.nwrayemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:39+00:00,www.ofinixx.com.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:39+00:00,www.ofinixx.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:39+00:00,www.opp.gia.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:39+00:00,www.ormis-mof.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:40+00:00,www.pa-yemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:40+00:00,www.pare.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:40+00:00,www.parliament.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:41+00:00,www.pec.gov.ye,,http://www.pec.gov.ye/,404,text/html,certificate-transparency;inventory;rapiddns;ye-domains,https: HTTP 500 Internal Server Error | http: HTTP 404 Not Found
+2026-10-31T17:07:41+00:00,www.pesticides.gov.ye,https://www.pesticides.gov.ye/,https://www.pesticides.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:07:41+00:00,www.pfmod.gov.ye,https://www.pfmod.gov.ye/,https://www.pfmod.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:07:41+00:00,www.pfmp.mof.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:42+00:00,www.pgfpp.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:42+00:00,www.pmo.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:42+00:00,www.po.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:42+00:00,www.police-info.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:42+00:00,www.pppc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:42+00:00,www.presidency.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:42+00:00,www.presidentialoffice.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:43+00:00,www.presidentsaleh.gov.ye,,,0,,inventory;rapiddns;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:43+00:00,www.ptc.gov.ye,https://www.ptc.gov.ye/,https://ptc.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:44+00:00,www.qada.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:44+00:00,www.qtaralnada.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:44+00:00,www.queensys.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:44+00:00,www.rdc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:44+00:00,www.rmfhc.gov.ye,,https://www.rmfhc.gov.ye/,301,text/html,inventory;ye-domains,"https: HTTP 301 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently | http: HTTP 301 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently"
+2026-10-31T17:07:45+00:00,www.rp.ptc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:45+00:00,www.s-tawasul.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:45+00:00,www.sabanews.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:45+00:00,www.sadah.gov.ye,https://www.sadah.gov.ye/,https://sadah.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:45+00:00,www.saicmyemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:46+00:00,www.sanaagassp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:46+00:00,www.sanaampwh.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:46+00:00,www.savetime.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:46+00:00,www.sbdma.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:47+00:00,www.scer.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:48+00:00,www.scimmp.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:49+00:00,www.sciyyp.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:49+00:00,www.secularyemenis.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:49+00:00,www.services.mofa.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:49+00:00,www.sez.gov.ye,https://www.sez.gov.ye/,https://www.sez.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:07:49+00:00,www.sfp.gov.ye,,,0,,inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:50+00:00,www.shabwah.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:50+00:00,www.shohadaa.gov.ye,https://www.shohadaa.gov.ye/,https://shohadaa.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:50+00:00,www.shoora.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:50+00:00,www.sindbad.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:50+00:00,www.sis.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:50+00:00,www.sjc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:50+00:00,www.slo.gov.ye,https://www.slo.gov.ye/,https://www.slo.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:50+00:00,www.smc.gov.ye,https://www.smc.gov.ye/,https://smc.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:07:51+00:00,www.smp-mof.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:51+00:00,www.snacc.gov.ye,https://www.snacc.gov.ye/,https://snacc.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:52+00:00,www.snackglopl.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:52+00:00,www.srf.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:52+00:00,www.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:52+00:00,www.srsps-mohe.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:53+00:00,www.staticmohe.gov.ye,,,0,,inventory;ye-domains,https: _ssl.c:1063: The handshake operation timed out | http: timed out
+2026-10-31T17:07:53+00:00,www.studies.nic.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:53+00:00,www.subs.gcrb.gov.ye,https://www.subs.gcrb.gov.ye/,https://www.subs.gcrb.gov.ye/,206,text/html,inventory;ye-domains,
+2026-10-31T17:07:53+00:00,www.suerp.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:54+00:00,www.survey-authority.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:55+00:00,www.swf.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:55+00:00,www.tawasul.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:55+00:00,www.tax.gov.ye,https://www.tax.gov.ye/,https://tax.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:07:56+00:00,www.taxltu.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:56+00:00,www.tclms.tax.gov.ye,https://www.tclms.tax.gov.ye/,https://www.tclms.tax.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:07:56+00:00,www.tda.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:56+00:00,www.tech-city.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:56+00:00,www.test.cama.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:56+00:00,www.test.smc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:56+00:00,www.test.yemenvision.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:57+00:00,www.tevt-project.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:07:57+00:00,www.tmgh.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:57+00:00,www.topresidency.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno 111] Connection refused | http: timed out
+2026-10-31T17:07:57+00:00,www.tourism.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:57+00:00,www.tourisminyemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:58+00:00,www.tourismyemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:07:59+00:00,www.tr-sanaa.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:07:59+00:00,www.training.tax.gov.ye,https://www.training.tax.gov.ye/,https://www.training.tax.gov.ye/,206,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:07:59+00:00,www.trye.gov.ye,https://www.trye.gov.ye/,https://www.trye.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:08:00+00:00,www.twslc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:00+00:00,www.uajnas.gov.ye,,,0,,inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:01+00:00,www.unimaxhospital.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:01+00:00,www.visionofedu.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:01+00:00,www.vouchers.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:01+00:00,www.wateraljawf.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:01+00:00,www.y.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:02+00:00,www.yaam.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:02+00:00,www.yamania.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:02+00:00,www.yccsw.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:02+00:00,www.ycomd.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:02+00:00,www.yemen-environment.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:02+00:00,www.yemen-media.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:02+00:00,www.yemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:03+00:00,www.yemenexam.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:04+00:00,www.yemeninfo.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:04+00:00,www.yemenparliament.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:04+00:00,www.yemenpolice-ac.gov.ye,https://www.yemenpolice-ac.gov.ye/,https://www.yemenpolice-ac.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:08:05+00:00,www.yementourism.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:05+00:00,www.yemenvision.gov.ye,https://www.yemenvision.gov.ye/,https://yemenvision.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:08:06+00:00,www.yesc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:06+00:00,www.ygc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:06+00:00,www.yiig.gov.ye,,http://www.yiig.gov.ye/,404,text/html,certificate-transparency;inventory;ye-domains,https: The read operation timed out | http: HTTP 404 Not Found
+2026-10-31T17:08:06+00:00,www.yipo.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:06+00:00,www.ym-idc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:07+00:00,www.yms.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:07+00:00,www.yncecs.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:09+00:00,www.ypo.gov.ye,,http://www.ypo.gov.ye/,403,text/html,inventory;ye-domains,https: timed out | http: HTTP 403 Forbidden
+2026-10-31T17:08:09+00:00,www.yptc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:09+00:00,www.yradio.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:10+00:00,www.yrsc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:10+00:00,www.yrsgisc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:10+00:00,www.yrspc.gov.ye,,,0,,inventory;ye-domains,https: _ssl.c:1063: The handshake operation timed out | http: _ssl.c:1063: The handshake operation timed out
+2026-10-31T17:08:10+00:00,www.ysmc.gov.ye,https://www.ysmc.gov.ye/,https://www.ysmc.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:08:11+00:00,www.ysrdc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:12+00:00,y.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:12+00:00,yaam.srs-mohe.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:12+00:00,yamania.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:12+00:00,yccsw.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:13+00:00,ycomd.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:13+00:00,yemen-environment.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:13+00:00,yemen-media.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:13+00:00,yemen.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:14+00:00,yemenbarcode.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:14+00:00,yemenexam.gov.ye,,http://yemenexam.gov.ye/,404,text/html,inventory;ye-domains,https: timed out | http: HTTP 404 Not Found
+2026-10-31T17:08:14+00:00,yemeninfo.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:16+00:00,yemenmobile.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:17+00:00,yemenparliament.gov.ye,http://yemenparliament.gov.ye/,https://yemenparliament.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:08:17+00:00,yemenpolice-ac.gov.ye,https://yemenpolice-ac.gov.ye/,https://yemenpolice-ac.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:08:17+00:00,yementourism.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:18+00:00,yementp.moit.gov.ye,https://yementp.moit.gov.ye/,https://yementp.moit.gov.ye/,206,text/html,inventory;rapiddns;ye-domains,
+2026-10-31T17:08:18+00:00,yemenvision.gov.ye,https://yemenvision.gov.ye/,https://yemenvision.gov.ye/,200,text/html,certificate-transparency;inventory;rapiddns;ye-domains,
+2026-10-31T17:08:18+00:00,yesc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:18+00:00,ygc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:18+00:00,yhis.moh.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:18+00:00,yiig.gov.ye,https://yiig.gov.ye/,https://yiig.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:08:19+00:00,yipo.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:19+00:00,ym-idc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:19+00:00,yms.gov.ye,https://yms.gov.ye/,https://yms.gov.ye/,200,text/html,certificate-transparency;inventory;ye-domains,
+2026-10-31T17:08:20+00:00,yncecs.gov.ye,,http://yncecs.gov.ye/,503,text/html,certificate-transparency;inventory;rapiddns;ye-domains,https: timed out | http: HTTP 503 Service Temporarily Unavailable
+2026-10-31T17:08:20+00:00,ypc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:21+00:00,ypo.gov.ye,,http://ypo.gov.ye/,403,text/html,inventory;ye-domains,https: timed out | http: HTTP 403 Forbidden
+2026-10-31T17:08:21+00:00,yptc.gov.ye,,,0,,inventory;ye-domains,https: [Errno -2] Name or service not known | http: [Errno -2] Name or service not known
+2026-10-31T17:08:21+00:00,yradio.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:21+00:00,yrsc.gov.ye,,,0,,inventory;ye-domains,https: timed out | http: timed out
+2026-10-31T17:08:22+00:00,yrsgisc.gov.ye,,,0,,certificate-transparency;inventory;rapiddns;ye-domains,https: [Errno -3] Temporary failure in name resolution | http: [Errno -3] Temporary failure in name resolution
+2026-10-31T17:08:23+00:00,yrspc.gov.ye,,,0,,inventory;ye-domains,https: _ssl.c:1063: The handshake operation timed out | http: _ssl.c:1063: The handshake operation timed out
+2026-10-31T17:08:23+00:00,ysmc.gov.ye,https://ysmc.gov.ye/,https://ysmc.gov.ye/,200,text/html,inventory;ye-domains,
+2026-10-31T17:08:23+00:00,ysrdc.gov.ye,,,0,,certificate-transparency;inventory;ye-domains,https: timed out | http: timed out
