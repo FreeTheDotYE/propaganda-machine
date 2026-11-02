@@ -125,6 +125,7 @@ hadhramaut.gov.ye
 hadhramout.gov.ye
 hadramoutbts.gov.ye
 haj.gov.ye
+haja.mwe.gov.ye
 hajjahmla.gov.ye
 hasti.gov.ye
 hastierp.gov.ye
@@ -579,6 +580,7 @@ www.shoora.gov.ye
 www.sindbad.srs-mohe.gov.ye
 www.sis.gov.ye
 www.sjc.gov.ye
+www.sjcyemen.gov.ye
 www.slo.gov.ye
 www.smc.gov.ye
 www.smp-mof.gov.ye
