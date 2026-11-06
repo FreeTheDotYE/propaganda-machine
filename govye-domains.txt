@@ -623,6 +623,7 @@ www.y.gov.ye
 www.yaam.srs-mohe.gov.ye
 www.yamania.gov.ye
 www.yccsw.gov.ye
+www.ycg.gov.ye
 www.ycomd.gov.ye
 www.yemen-environment.gov.ye
 www.yemen-media.gov.ye
@@ -648,10 +649,12 @@ www.yrsgisc.gov.ye
 www.yrspc.gov.ye
 www.ysmc.gov.ye
 www.ysrdc.gov.ye
+www.zakah.gov.ye
 y.gov.ye
 yaam.srs-mohe.gov.ye
 yamania.gov.ye
 yccsw.gov.ye
+ycg.gov.ye
 ycomd.gov.ye
 yemen-environment.gov.ye
 yemen-media.gov.ye
@@ -682,3 +685,4 @@ yrsgisc.gov.ye
 yrspc.gov.ye
 ysmc.gov.ye
 ysrdc.gov.ye
+zakah.gov.ye
