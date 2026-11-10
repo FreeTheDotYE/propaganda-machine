@@ -299,6 +299,7 @@ s.jia-au.gov.ye
 s.mocsi.gov.ye
 sabanews.gov.ye
 sadah.gov.ye
+sago.gov.ye
 saicmyemen.gov.ye
 sanaagassp.gov.ye
 sanaampwh.gov.ye
@@ -563,6 +564,7 @@ www.rp.ptc.gov.ye
 www.s-tawasul.gov.ye
 www.sabanews.gov.ye
 www.sadah.gov.ye
+www.sago.gov.ye
 www.saicmyemen.gov.ye
 www.sanaagassp.gov.ye
 www.sanaampwh.gov.ye
