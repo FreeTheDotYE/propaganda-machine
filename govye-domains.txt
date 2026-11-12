@@ -27,6 +27,7 @@ api.yrspc.gov.ye
 app.area.gov.ye
 app.centralbank.gov.ye
 app.fiu.gov.ye
+app.pec.gov.ye
 app.yrspc.gov.ye
 apps.mot.gov.ye
 ar.hocc.gov.ye
@@ -298,6 +299,7 @@ s-tawasul.gov.ye
 s.jia-au.gov.ye
 s.mocsi.gov.ye
 sabanews.gov.ye
+sadad.pec.gov.ye
 sadah.gov.ye
 sago.gov.ye
 saicmyemen.gov.ye
@@ -385,6 +387,7 @@ www.amanaedu.gov.ye
 www.amlcft.gov.ye
 www.amranhealth.gov.ye
 www.apcra.srs-mohe.gov.ye
+www.app.pec.gov.ye
 www.area.gov.ye
 www.ath.gov.ye
 www.authmohe.gov.ye
@@ -564,6 +567,7 @@ www.rmfhc.gov.ye
 www.rp.ptc.gov.ye
 www.s-tawasul.gov.ye
 www.sabanews.gov.ye
+www.sadad.pec.gov.ye
 www.sadah.gov.ye
 www.sago.gov.ye
 www.saicmyemen.gov.ye
