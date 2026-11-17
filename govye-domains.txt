@@ -9,6 +9,7 @@ afy.gov.ye
 aghhajjah.gov.ye
 agoye.gov.ye
 agriculture.gov.ye
+air.cama.gov.ye
 airtransport.gov.ye
 albaydhahis.gov.ye
 algumhorihosp-san.gov.ye
@@ -283,6 +284,7 @@ presidency.gov.ye
 presidenthadi.gov.ye
 presidentialoffice.gov.ye
 presidentsaleh.gov.ye
+project.cama.gov.ye
 ptc.gov.ye
 qada.gov.ye
 qr-moit.gov.ye
@@ -356,6 +358,7 @@ tourismyemen.gov.ye
 tr-sanaa.gov.ye
 trade-magazine.moit.gov.ye
 training.tax.gov.ye
+trans.cama.gov.ye
 trye.gov.ye
 twslc.gov.ye
 uajnas.gov.ye
