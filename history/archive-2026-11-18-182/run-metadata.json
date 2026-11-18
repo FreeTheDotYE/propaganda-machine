@@ -1,0 +1,44 @@
+{
+  "archive": {
+    "archive_count": 158,
+    "clean_wget_outcomes": 46,
+    "manifest_bytes": 180847073,
+    "manifest_rows": 158,
+    "non_clean_wget_outcomes": 112,
+    "response_records": 3774,
+    "revisit_records": 3087,
+    "warc_bytes": 180847073
+  },
+  "coverage": {
+    "accumulated_inventory": 699,
+    "candidates": 699,
+    "complete_failures": 0,
+    "empty_captures": 6,
+    "excluded_candidates": 69,
+    "hard_limit_fallbacks": 6,
+    "selected_candidate_hosts": 148,
+    "selected_targets": 158,
+    "targets_with_records": 152,
+    "unreachable_candidates": 482
+  },
+  "metadata_schema_version": "2.0.0",
+  "methodology_version": "2.0.0",
+  "run": {
+    "captured_at": "20261118T152645Z",
+    "workflow_commit": "040d6e6c43031128b6c3112dbe1a022591a3bb27",
+    "workflow_run_id": "44334866726"
+  },
+  "sha256": {
+    "accumulated_inventory": "22f2304d73f257590ca46cfce6f9f02bbaf78e478b9a4cede9caed01ae8ace04",
+    "discovery": "6cc958d8d8f291f9d54e9e6ef1aaa3c1c551e8696236d6638eda36700494a1aa",
+    "manifest": "85c137317c74a35ac048b4a16f73214d7a77c3e9df3496d1313584027e51afc5",
+    "methodology": "a8cb6c37dfb506c4d484271cc485c928be7a091fc1d138d68ae28e58833bdc57",
+    "pinned_inventory": "d3ea5459bd019ad52cde61362a8859c921ff4033113e2a32d888d93434e87b29",
+    "selected_targets": "c957f0b990c5e6da9c07ebca2c1e414a94cb76879718933142b42646c3cb0eb2"
+  },
+  "vantage": {
+    "classification": "external-public-web-vantage-outside-yemen",
+    "provider": "GitHub Actions",
+    "runner": "ubuntu-latest"
+  }
+}
